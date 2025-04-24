@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -9,12 +9,25 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <android.widget.Button
+        android:id="@+id/bgMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000000"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toTopOf="@+id/frame_FragmentContainerView_MainActivity"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/logo_ImageView_MainActivity"
@@ -22,51 +35,107 @@
             android:layout_height="70dp"
             android:layout_margin="0dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/logo"/>
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/title_TextView_MainActivity"
+            style="@style/textViewBigStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            style="@style/textViewBigStyle"
-            android:padding="0dp"
-            android:textSize="20sp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
+            android:layout_weight="3"
+            android:padding="0dp"
             android:text="@string/dziewiec_gdh"
             android:textAlignment="viewStart"
-            android:layout_marginLeft="0dp"/>
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/info_Main"
+        style="@style/frameBottomStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/textViewBigStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/informacje"
+            android:textIsSelectable="true" />
+
+        <TextView
+            style="@style/textViewRegularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="@string/tworca"
+            android:textIsSelectable="true" />
+
+        <TextView
+            style="@style/textViewRegularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_kontaktowy"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            style="@style/textViewRegularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:layout_marginTop="0dp"
+            android:autoLink="email"
+            android:text="michal.surazynski@zhr.pl"
+            android:textIsSelectable="true" />
+
+        <TextView
+            style="@style/textViewRegularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="@string/kod_zrodlowy" />
+
+        <TextView
+            style="@style/textViewRegularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/repo_link" />
+
+        <TextView
+            style="@style/textViewSmallStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/sugestie_i_pytania"
+            android:textIsSelectable="true" />
+
     </LinearLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frame_FragmentContainerView_MainActivity"
         android:name="com.app.a9gdh.MenuFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/szyfry_Button_MainActivity"
-        style="@style/buttonGenericStyle"
-        android:layout_marginTop="40dp"
-        android:drawableLeft="@drawable/ic_key"
-        android:text="@string/encryption_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/prawo_Button_MainActivity"
-        style="@style/buttonGenericStyle"
-        android:layout_marginTop="40dp"
-        android:drawableLeft="@drawable/ic_book"
-        android:text="@string/prawo_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/szyfry_Button_MainActivity" />
-</LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

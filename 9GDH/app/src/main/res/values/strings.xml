@@ -1153,4 +1153,10 @@
     <string name="zbroja_text_6">Bo choć zaginął hełm i miecz\nDla ciała żadna w niej ostoja\nTo w końcu życia warta rzecz\nZbroja\nZbroja</string>
     <string name="wpisz_wiadomosc">Wpisz wiadomość</string>
     <string name="zaszyfrowana_wiadomosc">Zaszyfrowana wiadomość</string>
+    <string name="email_kontaktowy">Email kontaktowy:</string>
+    <string name="sugestie_i_pytania">W sprawie wszelkich sugestii lub pytań proszę o kontakt.</string>
+    <string name="repo_link">https://github.com/MSurazynski/9GDH.git</string>
+    <string name="kod_zrodlowy">Kod źródłowy:</string>
+    <string name="tworca">Twórca: Michał Surażyński</string>
+    <string name="informacje">Informacje o Deweloperze</string>
 </resources>

@@ -2,7 +2,11 @@ package com.app.a9gdh;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.OnBackPressedCallback;
@@ -13,6 +17,13 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button bgMain;
+    private LinearLayout info;
+    private AnimationManager animationManager;
+    private ImageView logo;
+
+    private boolean is_info_open = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,5 +51,32 @@ public class MainActivity extends AppCompatActivity {
         getOnBackPressedDispatcher().addCallback(this, callback);
 
 
+        bgMain = findViewById(R.id.bgMain);
+        info = findViewById(R.id.info_Main);
+        logo = findViewById(R.id.logo_ImageView_MainActivity);
+
+        animationManager = new AnimationManager(this);
+
+        logo.setOnClickListener(v -> {
+            if (!is_info_open) {
+
+                is_info_open = true;
+                info.startAnimation(animationManager.getFadeIn());
+                info.setVisibility(View.VISIBLE);
+                bgMain.startAnimation(animationManager.getFadeIn());
+                bgMain.setVisibility(View.VISIBLE);
+            }
+        });
+
+        bgMain.setOnClickListener(v -> {
+            if (is_info_open) {
+
+                is_info_open = false;
+                info.startAnimation(animationManager.getFadeOut());
+                info.setVisibility(View.INVISIBLE);
+                bgMain.startAnimation(animationManager.getFadeOut());
+                bgMain.setVisibility(View.INVISIBLE);
+            }
+        });
     }
 }
