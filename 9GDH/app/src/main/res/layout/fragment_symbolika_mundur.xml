@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fragmentStyle"
+    tools:context=".Symbolika_MundurFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                style="@style/marginStyle"
+                android:layout_marginTop="@dimen/margin_border_vertical"
+                android:layout_gravity="center"
+                android:src="@drawable/symbolika_mundur"/>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="Krzyż Harcerski"/>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/mundur1"/>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="@string/sznur" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/mundur2" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="@string/podk_adka_pod_krzy_harcerski"/>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/mundur3" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="Podwinięte rękawy"/>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/mundur4"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

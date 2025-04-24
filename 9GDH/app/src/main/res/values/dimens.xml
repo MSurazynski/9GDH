@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="text_extra_small_size">10sp</dimen>
+    <dimen name="text_small_size">15sp</dimen>
+    <dimen name="text_regular_size">16sp</dimen>
+    <dimen name="text_large_size">23sp</dimen>
+    <dimen name="text_extra_large_size">30sp</dimen>
+
+    <dimen name="padding_regular">20dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+
+    <dimen name="margin_regular_horizontal">20dp</dimen>
+
+    <dimen name="margin_small_horizontal">10dp</dimen>
+
+    <dimen name="margin_regular_vertical">15dp</dimen>
+    <dimen name="margin_border_vertical">20dp</dimen>
+    <dimen name="margin_extended">30dp</dimen>
+</resources>

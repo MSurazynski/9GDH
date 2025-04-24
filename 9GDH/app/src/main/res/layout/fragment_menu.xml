@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_scrollView_MenuFragment"
+    style="@style/scrollViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/zbroja_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_note"
+            android:text="@string/zbroja"/>
+
+        <Button
+            android:id="@+id/prawo_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_compass"
+            android:text="@string/prawo_button" />
+
+        <Button
+            android:id="@+id/biografie_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_person"
+            android:text="@string/biografie_button" />
+
+        <Button
+            android:id="@+id/stopnie_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_double_arrow"
+            android:text="@string/stopnie_button" />
+
+        <Button
+            android:id="@+id/symbolika_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_star"
+            android:text="@string/symbolika" />
+
+        <Button
+            android:id="@+id/szyfry_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_key"
+            android:text="@string/encryption_button" />
+
+        <Button
+            android:id="@+id/struktura_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_arrow_merge"
+            android:text="@string/struktura_button" />
+
+        <Button
+            android:id="@+id/musztra_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_flag"
+            android:text="@string/musztra" />
+
+        <Button
+            android:id="@+id/mundur_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_shirt"
+            android:text="@string/regulamin_umundurowania" />
+
+        <Button
+            android:id="@+id/sprawnosci_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_circle_star"
+            android:text="@string/sprawno_ci" />
+
+        <Button
+            android:id="@+id/statut_Button_MenuFragment"
+            style="@style/buttonBottomStyle"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_book"
+            android:text="@string/statut_zhr" />
+    </LinearLayout>
+</ScrollView>

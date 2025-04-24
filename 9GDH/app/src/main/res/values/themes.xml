@@ -1,0 +1,152 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._9GDH" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="fragmentStyle">
+        <item name="android:background">@color/bg_light</item>
+    </style>
+
+    <style name="scrollViewStyle">
+        <item name="android:background">@color/bg_light</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="marginStyle">
+
+        <item name="android:layout_marginTop">@dimen/margin_regular_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/margin_regular_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/margin_regular_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/margin_regular_horizontal</item>
+    </style>
+
+    <style name="buttonGenericStyle" parent="marginStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:text">@string/default_button</item>
+        <item name="android:textSize">@dimen/text_large_size</item>
+        <item name="android:font">@font/roboto_bold</item>
+        <item name="android:padding">@dimen/padding_regular</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="drawableTint">@color/text_light</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="buttonBottomStyle" parent="buttonGenericStyle">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="backgroundTint">@color/bottom_layer_light</item>
+    </style>
+
+    <style name="buttonTopStyle" parent="buttonGenericStyle">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="backgroundTint">@color/top_layer_light</item>
+    </style>
+
+    <style name="buttonAccentStyle" parent="buttonGenericStyle">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:backgroundTint">@color/accent_light</item>
+    </style>
+
+    <style name="buttonBackgroundStyle" parent="buttonGenericStyle">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:backgroundTint">@color/bg_light</item>
+    </style>
+
+
+
+    <style name="genericTextViewStyle" parent="marginStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/greeting</item>
+        <item name="android:textSize">@dimen/text_large_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="font">@font/roboto_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="hintTextColor">@color/text_hint_light</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:textColorHighlight">@color/accent_light</item>
+    </style>
+
+    <style name="textViewBigStyle" parent="genericTextViewStyle">
+        <item name="android:textSize">@dimen/text_large_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="font">@font/roboto_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewRegularStyle" parent="genericTextViewStyle">
+        <item name="android:textSize">@dimen/text_regular_size</item>
+        <item name="android:textColor">@color/text_hint_light</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="textViewSmallStyle">
+        <item name="android:textSize">@dimen/text_small_size</item>
+        <item name="android:textColor">@color/text_hint_light</item>
+        <item name="hintTextColor">@color/text_hint_light</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="textViewSmallBackgroundTopStyle" parent="textViewSmallStyle">
+        <item name="android:background">@drawable/rec_rad_20dp</item>
+        <item name="backgroundTint">@color/top_layer_light</item>
+        <item name="android:padding">@dimen/padding_regular</item>
+    </style>
+
+    <style name="textViewSmallBackgroundBottomStyle" parent="textViewSmallStyle">
+        <item name="background">@drawable/rec_rad_20dp</item>
+        <item name="backgroundTint">@color/bottom_layer_light</item>
+        <item name="android:padding">@dimen/padding_regular</item>
+    </style>
+
+    <style name="textViewRegularBackgroundTopStyle" parent="textViewRegularStyle">
+        <item name="android:background">@drawable/rec_rad_20dp</item>
+        <item name="backgroundTint">@color/top_layer_light</item>
+        <item name="android:padding">@dimen/padding_regular</item>
+    </style>
+
+    <style name="textViewRegularBackgroundBottomStyle" parent="textViewRegularStyle">
+        <item name="android:background">@drawable/rec_rad_20dp</item>
+        <item name="backgroundTint">@color/bottom_layer_light</item>
+        <item name="android:padding">@dimen/padding_regular</item>
+    </style>
+
+>
+
+
+    <style name="bottomArrowStyle">
+        <item name="android:src">@drawable/ic_arrow_down_light</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="infoStyle">
+        <item name="android:src">@drawable/ic_info_light</item>
+    </style>
+
+    <style name="backArrowButtonStyle" parent="buttonBottomStyle">
+        <item name="android:src">@drawable/ic_arrow_back_light</item>
+    </style>
+
+
+    <style name="tabLayoutStyle">
+        <item name="android:background">@color/bg_light</item>
+        <item name="tabIconTint">@color/text_light</item>
+        <item name="tabIndicatorColor">@color/text_light</item>
+        <item name="tabRippleColor">@color/text_light</item>
+        <item name="tabTextColor">@color/text_light</item>
+    </style>
+
+
+
+    <style name="frameBottomStyle">
+        <item name="android:background">@drawable/rec_rad_20dp</item>
+        <item name="android:backgroundTint">@color/bottom_layer_light</item>
+    </style>
+
+    <style name="frameBottomTopCornersStyle">
+        <item name="android:background">@drawable/rec_rad_20dp_top</item>
+        <item name="android:backgroundTint">@color/bottom_layer_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,1156 @@
+<resources>
+    <string name="app_name">9GDH</string>
+    <string name="greeting">siema siema</string>
+    <string name="default_button">Default Button</string>
+    <string name="encryption_button">Szyfry</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prawo_button">Prawo Harcerskie</string>
+
+    <string name="krzyz1">
+        - Ciężka droga oraz gotowość do walki i poświęcenia
+    </string>
+
+    <string name="krzyz2">
+        - Znak skautowy
+        \n- Wzorowana na igle magnetycznej busoli
+        \n- Symbolizuje podążanie harcerzy przez życie zgodnie z ideałami Przyrzeczenia i Prawa Harcerskiego
+    </string>
+
+    <string name="krzyz3">
+        -  Wywodzi się z czasów, gdy pozdrawiali sie tak rycerze w czasie nocnej służby
+        \n- Przypomina o stałej gotowości do czynu, służby Ojczyźnie, pracy dla innych i nad sobą
+    </string>
+
+    <string name="krzyz4">
+         - Symbolizuje zwycięstwo
+        \n- Wywodzi się ze starożytności, gdy zwycięzców olimpiad dekorowano wieńcami laurowymi
+    </string>
+
+    <string name="krzyz5">
+        - Symbolizuje dążenie do doskonałości
+        \n- Symbolizuje również bratni krąg, który łączy wszystkich harcerzy
+    </string>
+
+    <string name="krzyz6">
+        -Symbolizuje męstwo i siłę
+    </string>
+
+    <string name="krzyz7">
+       - Oznaczają licznych członków ruchów skautowych na świecie
+       \n- Symbolizują trudy i radości na ciężkiej drodze życia
+    </string>
+
+    <string name="krzyz8">
+        - Oznaczają pozytywne oddziaływanie harcerzy na społeczeństwo
+    </string>
+
+
+    <string name="lilijka1">
+        - \'O\' oznacza Ojczyznę
+        \n- \'N\' oznacza Naukę
+        \n- \'C\' oznacza Cnotę
+    </string>
+
+    <string name="lilijka2">
+        - Symobolizują służbę Bogu, Ojczyźnie oraz bliźnim
+    </string>
+
+    <string name="lilijka3">
+        - Symbolizuje podążanie w dobrym kierunku, czyli zgodnie z ideałami Prawa i Przyrzeczenia Harcerskiego
+    </string>
+
+
+    <string name="mundur1">
+        - Oznacza stopień noszącej go osoby
+    </string>
+
+    <string name="mundur2">
+        - Oznacza funkcje jaką pełni nosząca go osoba
+    </string>
+
+    <string name="mundur3">
+        - Oznacza stopień instruktorski noszącej ją osoby
+    </string>
+
+    <string name="mundur4">
+        - Symbolizują ciągłą gotowość harcerza do pracy
+    </string>
+
+    <string name="pagon_wedrowniczy1">
+        Symbolizuję siłę ducha.
+    </string>
+
+    <string name="pagon_wedrowniczy2">
+        Symbolizuję siłę rozumu.
+    </string>
+
+    <string name="pagon_wedrowniczy3">
+        Symbolizuję siłę ciała.
+    </string>
+
+    <string name="pagon_wedrowniczy4">
+        Symbolizuję:\n
+            - Pracę nad sobą\n
+            - Szukanie miejsca w społeczeństwie\n
+            - Służbę.
+    </string>
+
+    <string name="struktura_opis">
+        Struktura ZHR przedstawiona na tej stronie została znacząco uproszczona. Pominięto również Organizacje Harcerek.
+    </string>
+
+    <string name="struktura_hufiec">
+        Hufcem kieruje Hufcowy, mianowony przez
+        Naczelnika Harcerzy na wniosek zbiórki
+        instruktorów hufca. Hufiec pomaga w pracy
+        programowej drużyn i sprawuje nad nimi
+        nadzór metodyczny.
+    </string>
+
+    <string name="struktura_rada_naczelna">
+        22 członków wybranych przez Walny Zjazd,
+        Przewodniczący ZHR, Naczelniczka Harcerek, Naczelnik Harcerzy
+        oraz 12 Przewodniczących Zarządów Okręgów.
+    </string>
+
+    <string name="struktura_komisja_rewizyjna_zwiazku">
+        7 członków wybranych przez Walny Zjazd. Czuwa nad zgodnością działania
+        Władz Związku ze Statutem, regulaminami wewnętrznymi oraz przepisami prawa.
+    </string>
+
+    <string name="struktura_sad_harcerski">
+        5 członków wybranych przez Walny Zjazd.
+    </string>
+
+    <string name="struktura_przewodniczacy">
+        Kieruje pracą związku, jest Przewodniczącym Rady Naczelnej oraz przełożonym Naczelniczki
+        Harcerek oraz Naczelnika Harcerzy.
+    </string>
+
+    <string name="struktura_naczelnictwo">
+        Jest zarządem organizacji. Składa się z Przewodniczącego ZHR, Naczelniczki Harcerek i
+        Naczelnika Harcerzy oraz 8 członków wybranych przez Radę Naczelną, w tym: 2 Wiceprzewodniczących
+        Sekretarza Generalnego, Naczelnego Kapelana, Skarbnika, Komisarza Zagranicznego.
+    </string>
+
+    <string name="struktura_naczelnik_harcerzy">
+        Kieruje Organizacją Harcerzy przy pomocy powołanej przez siebie Głównej Kwatery Harcerzy,
+        w skład której wchodzą: Komisja Harcmistrzowska, Centralna Szkoła Instruktorska, wydziały
+        metodyczne i inne jednostki metodyczne.
+    </string>
+
+    <string name="struktura_glowna_kwatera">
+        Pomaga w prowadzeniu Organizacji Harcerzy Naczelnikowi Harcerzy. Składa się z: Komisja Harcmistrzowska, Centralna Szkoła Instruktorska, wydziały
+        metodyczne i inne jednostki metodyczne.
+    </string>
+
+    <string name="struktura_komisje_rewizyjne_okregow">
+        Składają się z 3 osób wybranych na zbiórce instruktorskiej Okręgu. Czuwają nad zgodnością
+        działania jednostek organizacyjnych Okręgu ze statutem, regulaminami wewnętrznymi oraz
+        przepisami prawa.
+    </string>
+
+    <string name="struktura_chorgwie">
+        Chorągwią kieruje Komendant Chorągwi
+        (mianowany przez Naczelnika Harcerzy
+        na wniosek zbiórki instruktorów) przy pomocy
+        powołanej przez siebie Komendy Chorągwi.
+        W ramach Chorągwi działa Komisja Stopni
+        Instruktorskich, Szkoła Instruktorska lub
+        Wydział Kształcenia, wydziały metodyczne
+        i inne jednostki programowo-metodyczne.
+
+    </string>
+
+    <string name="struktura_okregi">
+        Kierowane przez 5-9-osobowy Zarząd wybierany przez zbiórkę instruktorską Okręgu. Przewodniczący Zarządu i Skarbnik są zatwierdzani przez Haczelnictwo ZHR. W skład
+        Zarządu wchodzi Komendantka Chorągwi Harcerek i Komendant Chorągwi Harcerzy. Okręg prowadzi sprawy administracyjne oraz finansowo-gospodarcze wszystkich jednostek
+        z terenu swojego działania oraz prezentuje ZHR wobec władz lokalnych. Koordynuje także działanie Kół Przyjaciół Harcerstwa.
+    </string>
+
+    <string name="struktura_obwody">
+        Dla ułatwienia działania środowisk lokalnych
+        (na poziomie hufca) w Okręgu mogą powstawać Obwody,
+        realizujące części kompetencji Okręgu na obszarze
+        swojego działania.
+    </string>
+
+    <string name="struktura_druzyny">
+        Drużyna jest podstawową jednostką
+        wychowawczą ZHR. Prowadzi ją drużynowy-wychowawca będący pełnoletnim instruktorem
+        ZHR. Drużynowych mianuje hufcowy.
+    </string>
+
+    <string name="struktura_walny_zjazd">
+        Najwyższa władza Związku. Zjazd odbywa się co 2 lata.
+    </string>
+
+
+    <string name="stopnie_idea_mlodzik">
+        Wiem, co to znaczy być harcerzem. Znam Prawo Harcerskie. Jestem gotowy złożyć Przyrzeczenie
+        Harcerskie. Jestem samodzielny i gotowy do służby. Pomagam innym. Odróżniam dobro i zło.
+        Postępuję zgodnie z wskazaniami wiary chrześcijańskiej. Poprzez dobre uczynki staję się coraz lepszy.
+        Jestem dobrym synem, kolegą i uczniem.
+    </string>
+
+    <string name="stopnie_oznaczenie_mlodzik">
+        Stopień oznacza się krzyżem harcerskim umieszczonym nad lewą kieszenią, na mundurze.
+    </string>
+
+    <string name="stopnie_idea_wyw">
+        Rozumiem Prawo Harcerskie i zgodnie z nim postępuję w życiu codziennym. Systematycznie
+        uczestniczę w praktykach religijnych Kościoła. Staram się być dobrym harcerzem. Jestem samodzielny.
+        Potrafię zadbać o siebie. Aktywie i odpowiedzialnie uczestniczę w życiu zastępu i drużyny. Można na
+        mnie polegać w trudnych sytuacjach. Doskonalę się w technikach harcerskich. Jako syn, brat, wnuk
+        jestem gotowy do poświęceń na rzecz rodziny. Pamiętam o swoich obowiązkach i właściwie je
+        wypełniam. Staram się być przykładem dla swoich rówieśników. Harcerzem jestem nie tylko wtedy,
+        kiedy mam na sobie mundur. Jestem gotów na każde wezwanie do służby.
+
+    </string>
+
+    <string name="stopnie_oznaczenie_wyw">
+        Stopień oznacza się srebrną lilijką na krzyżu harcerskim.
+    </string>
+
+    <string name="stopnie_idea_cw">
+        Utożsamiam się z systemem wartości zawartych w Prawie i Przyrzeczeniu Harcerskim. Jestem
+        mistrzem w technikach harcerskich. Nie załamują mnie trudności. Daje sobie radę w każdej sytuacji.
+        Jestem godny zaufania. Odpowiedzialnie wywiązuję się z przyjętych na siebie obowiązków. Potrafię
+        kierować i zgodnie pracować w zespole. Jestem gotowy do podjęcia świadomej służby społecznej.
+        Osiągam widoczne efekty w pracy nad sobą. Uczestniczę w życiu Kościoła i żyję życiem
+        sakramentalnym. Daję dobry przykład młodszym harcerzom w codziennym życiu, kierując się służbą
+        Bogu, Ojczyźnie i bliźnim. Jestem odpowiedzialny za rodzinę, drużynę, grupę kolegów, do których
+        należę. Zachowuję godną postawę wobec dziewcząt.
+    </string>
+
+    <string name="stopnie_oznaczenie_cw">
+        Stopień oznacza się złotą lilijką na krzyżu harcerskim.
+    </string>
+
+    <string name="stopnie_idea_ho">
+        Harcerz Orli to chłopak, który poszukuje i sprawdza. Jest ciekawy świata, pełen pogody ducha,
+        odważnie próbuje nowych rzeczy. Nie boi się zmieniać podejścia do różnych spraw i odważnie
+        rozwiązuje pojawiające się problemy. Myśli nad swoją przyszłością. Zadaje pytania dotyczące
+        sensu punktów Prawa Harcerskiego i szuka odpowiedzi na nie. Jest gotów podejmować się
+        zobowiązań będących dla niego wyzwaniami i stara się wypełnić je jak najlepiej.
+    </string>
+
+    <string name="stopnie_oznaczenie_ho">
+        Stopień oznacza się złotą lilijką oraz złotym okręgiem na krzyżu harcerskim.
+    </string>
+
+    <string name="stopnie_idea_hr">
+        To młodzieniec, który ukorzenia się w wartościach Prawa Harcerskiego na dorosłe życie -
+        rozumie jego sens, jest wiernym tym wartościom. Podejmuje on pierwsze ważne decyzje dotyczące
+        swojej ścieżki życiowej. Ma marzenia i je realizuje. Ma stałe zobowiązania, które konsekwentnie
+        wypełnia. Jest godny zaufania. Jest świadomy konsekwencji podejmowanych decyzji, bierze za
+        nie odpowiedzialność. Staje się autorytetem harcerskim i wzorem dla innych. Swoje życie opiera
+        na wartościach chrześcijańskich
+    </string>
+
+    <string name="stopnie_oznaczenie_hr">
+        Stopień oznacza się złotą lilijką, złotym okręgiem oraz złotym wieńcem na krzyżu harcerskim.
+    </string>
+
+    <string name="stopnie_idea_pwd">
+        Człowiek
+        \n\nNie zaniedbuje rozwoju własnego, stara się rozpoznać swoje powołanie i rozwija własne talenty. Jest wytrwały w
+        osiąganiu wyznaczonych celów, nie zniechęcają go powstające przeszkody, zwalcza swoje lenistwo. Jest
+        niezależny w sądach, nie przyjmuje bezkrytycznie zasłyszanych opinii. Kiedy trzeba potrafi pracować w zespole,
+        by osiągnąć wspólny cel. Pracuje nad swoja silną wolą, w podejmowanych działaniach cechuje się hartem ducha.
+        W trudnych sytuacjach daje świadectwo odwagi cywilnej. Wymaga przede wszystkim od siebie i zawsze więcej niż
+        od innych. W zgodzie ze swoimi możliwościami rozwija swój potencjał intelektualny. Chce lepiej zrozumieć
+        otaczający go świat stale pogłębia swoją wiedzę o historii, filozofii, sztuce.
+        Rozumiejąc rolę i znaczenie rodziny, czynnie uczestniczy w życiu swojej rodziny. Staje się dojrzałym mężczyzna
+        – przygotowuje się do pełnienia obowiązków spoczywających na mężczyźnie.
+        Jest przykładem sprawności fizycznej, stara się uprawiać ulubioną dziedzinę sportu lub turystyki. Jest traperem, w
+        lesie czuje się jak u siebie w domu.\n\n
+
+        \nChrześcijanin
+        \n\nW sposób świadomy i samodzielny potrafi określić się jako chrześcijanin. Potrafi podzielić się własnymi
+        przemyśleniami na temat swojej wiary. Swoim życiem daje świadectwo wiary, szczególnie czytelne dla jego
+        młodszych wychowanków. Wiedzie życie sakramentalne, w podejmowanych wyborach życiowych kieruje się
+        zasadami nauki Kościoła. Pracując nad sobą stale pogłębia rozumienie podstawowych zasad wiary.\n\n
+
+        \nPolak
+        \n\nJest patriotą, głęboko zakorzenionym w polskości. Realizuje w swoim życiu aktywną służbę Polsce. Uczestniczy
+        w życiu społeczności lokalnej, wśród której żyje. Interesuje się życiem społeczno politycznym w Polsce, potrafi
+        zająć przemyślane stanowisko wobec głównych problemów życia państwowego w Polsce. Orientuje się w
+        podstawowych problemach Europy i świata.\n\n
+
+        \nWychowawca
+        \n\nDążąc do ideału zawartego w Przyrzeczeniu i Prawie Harcerskim jest wzorem harcerza. W sposób świadomy
+        prowadzi pracę wychowawczą z chłopcami. Zna i potrafi stosować w praktyce metodę harcerską adekwatną do
+        grupy wiekowej chłopców, którymi się zajmuje. Jest sprawnym organizatorem i wodzem stale pogłębiającym
+        swoje umiejętności . Zna swoich harcerzy i jest dla nich starszym bratem, który potrafi im pomóc w rozwiązaniu
+        różnych trudnych problemów. W prowadzonej pracy wychowawczej jest odpowiedzialny za życie i zdrowie
+        swoich podopiecznych. Jest dobrym drużynowym. Zna życiorys bł. ks. phm W. St. Frelichowskiego, Patrona
+        Harcerstwa Polskiego i inspiruje się nim w pracy harcerskiej.
+
+    </string>
+
+    <string name="stopnie_oznaczenie_pwd">
+        Stopień instruktorski przewodnika oznacza się poprzez granatową podkładkę pod krzyżem harcerskim oraz
+        granatową liljkę naszytą na lewym ramieniu. Dodatkowo każda osoba która zdobyła stopień instruktorski
+        nosi lilijkę instruktorską na środkowej części lewej kieszeni na mundurze.
+    </string>
+
+
+    <string name="stopnie_idea_phm">
+        Człowiek
+        \n\nDokładnie rozpoznał swoje talenty, rozwija je i wykorzystuje w osiąganiu wyznaczonych celów. Wybrał kierunek
+        swojego rozwoju intelektualnego i nim podąża. Potrafi zebrać odpowiedni zespół do wykonania wyznaczonego
+        zadania i kierując nim osiągnąć wyznaczone cele. Nie ufa bezkrytycznie sądom innych ludzi, jest nie tylko
+        niezależny w formułowaniu własnego zdania, ale i odpowiedzialny za wypowiadane opinie i poglądy. Potrafi
+        kierować grupą dorosłych ludzi. Wzmacnia swoja silna wolę i hart ducha. Daje świadectwo odwagi cywilnej i
+        męstwa tak w życiu codziennym, jak i sytuacjach trudnych. Nie stawia przed innymi celów, które są dla nich
+        nieosiągalne. Zawsze wymaga najwięcej od siebie. Nieustannie poszerza podstawowy kanon wiedzy o sztuce,
+        filozofii i historii.
+        Wytrwale dąży do określenia swojego powołania. Podejmuje działania przygotowujące do jego realizacji. W pełni
+        uznaje jedność i nierozerwalność sakramentu małżeństwa.
+        Dba o wysoką kondycję fizyczną. Może o sobie powiedzieć, że w lesie czuje się dobrze.\n\n
+
+        \nChrześcijanin
+        \n\nW swoim środowisku działania daje apostolskie świadectwo wiary. Ewangelia jest głównym kryterium
+        podejmowanych wyborów życiowych i wychowawczych. Prowadząc życie sakramentalne uczestniczy w życiu
+        liturgicznym Kościoła. Nie ustaje w pogłębianiu wiary, poprzez lektury, dyskusje, rekolekcje, itd., które pomagają
+        w przygotowaniu się do aktywnej postawy świadectwa.\n\n
+
+        \nPolak
+        \n\nUmacniając swoją tożsamość narodową, szerzy postawę umiłowania Ojczyzny w swoim środowisku działania.
+        Buduje własną wizję Polski, w której chciałby żyć. Współorganizuje życie społeczności lokalnej. Potrafi
+        uzasadnić swoje sympatie i antypatie polityczne argumentami merytorycznymi. Rozumie podstawowe problemy
+        międzynarodowe. Umie wskazać osiągnięcia Polski w skali Europy i Świata.\n\n
+
+        \nWychowawca
+        \n\nPodharcmistrz to drużynowy poprawnie prowadzący swoją drużynę i zmierzający do mistrzostwa w tej
+        dziedzinie. Doskonale zna metodyczne założenia harcerskiego systemu wychowania i potrafi je twórczo
+        stosować we wszystkich trzech gałęziach wiekowych harcerstwa. Sumiennie wypełniając swoje obowiązki jest dla
+        innych wzorem instruktora. Swoim życiem świadczy o przestrzeganiu wszystkich punktów Prawa Harcerskiego.
+        Potrafi sprawnie zorganizować działania obejmujące kilka drużyn. W sposób świadomy wychowuje przyszłych i
+        obecnych wychowawców. Umie pójść na kompromis, jest przywódcą. W podejmowanych działaniach i
+        zlecanych zadaniach cechuje go pełna odpowiedzialność za swoich podwładnych. Czynnie zabiega o formację
+        chrześcijańską podległych instruktorów i harcerzy. Rozumie rolę harcerstwa w drodze do świętości
+        bł. ks. phm. W. St. Frelichowskiego. Zna zasady pracy hufca, referatu chorągwi, kształcenia drużynowych. Jest
+        gotowy na podjęcie służby w tych obszarach.
+    </string>
+
+    <string name="stopnie_oznaczenie_phm">
+        Stopień instruktorski podharcmistrza oznacza się poprzez zieloną podkładkę pod krzyżem harcerskim oraz
+        zieloną liljkę naszytą na lewym ramieniu. Dodatkowo każda osoba która zdobyła stopień instruktorski
+        nosi lilijkę instruktorską na środkowej części lewej kieszeni na mundurze.
+    </string>
+
+    <string name="stopnie_idea_hm">
+        Człowiek
+        \n\nJego postępowanie cechuje odwaga w wyrażaniu prawdy wobec siebie i otoczenia, uczciwy osąd siebie, hart
+        ducha i silna wola. Wszystkich ludzi ze swego bliskiego otoczenia (koledzy, współpracownicy – zwierzchnicy i
+        podwładni) traktuje jak bliźnich. Realizuje ukształtowany kierunek rozwoju zawodowego i ma wypracowane
+        osiągnięcia. Rozwija się intelektualnie. Stale dba o swoją kondycję fizyczną. Stara się bywać w lesie i dobrze się
+        w nim czuje.\n\n
+
+        \nChrześcijanin
+        \n\nHarcmistrz dzieli się swoją wiarą. Dąży do doskonałości dając innym przykład. Przestrzega głoszone zasady i jest
+        stale gotowy do podejmowania dyskusji na ich temat. Jest aktywnym członkiem Kościoła – dba o pogłębianie
+        rozumienia zasad wiary. Swoje życiowe powołanie realizuje w oparciu o Ewangelię. Orientuje się w nauczaniu
+        swojego Kościoła, zna jego naukę społeczną.\n\n
+
+        \nPolak
+        \n\nW swoim środowisku społeczno-politycznym cechuje się aktywnym działaniem i wyraźną ideowością. Na
+        pierwszym miejscu stawia rozwój silnej, zbudowanej na wartościach chrześcijańskich Polski i budowanie jej
+        ważnego miejsca w stosunkach międzynarodowych. W podejmowanych działaniach kieruje się zasadą służby
+        Polsce i pomocy bliźnim. Dba o prawdę w ocenie historii Polski. Zna i rozumie polski dorobek polityczny,
+        techniczny, gospodarczy i kulturalny w historii Europy i świata. Potrafi ocenić mechanizmy powstawania
+        i rozwiązywania problemów krajowych i międzynarodowych.\n\n
+
+        \nWychowawca
+        \n\nHarcmistrz to instruktor, który wykazał się mistrzostwem w prowadzeniu pracy wychowawczej z dziećmi i
+        młodzieżą przy pomocy metody harcerskiej. W pracy ze swoją drużyną osiągnął widoczne i doceniane przez
+        innych sukcesy organizacyjne i wychowawcze. Przyczynił się do rozwoju liczebnego ruchu harcerskiego.
+        Wychował nie tylko swojego następcę ale także przyczynił się do rozwoju kilku innych drużynowych, którzy
+        objęli lub założyli własne drużyny. Twórczo rozwija harcerski dorobek metodyczny i programowy. Potrafi
+        patrzeć na harcerstwo w perspektywie ogólnopolskiego ruchu społeczno-wychowawczego będącego częścią
+        światowego skautingu.
+        Współtworzy Związek i jego oblicze ideowe. Jest skromny, swoją pracę stara się wykonywać coraz lepiej. Chętnie
+        daje świadectwo swojej harcerskiej służby. Posiada księgozbiór wychowawcy harcerskiego. Jest Harcerzem
+        Rzeczypospolitej.
+        Harcmistrz potrafi proponować rozwiązania systemowe dla całego Związku, czuje się odpowiedzialny za jego
+        stan i stały rozwój. W celach wychowawczych potrafi umieścić aktualne potrzeby narodu polskiego. Potrafi
+        stawiać je przed harcerstwem w postaci programów wychowawczych dostosowanych do różnych poziomów
+        wiekowych i opartych na personalizmie chrześcijańskim. Zna dorobek i aktualną politykę wewnętrzną ZHR.
+        Postępuje w sposób odpowiedzialny za cały ZHR. Porównuje i ocenia założenia ideowe, metodyczne i programy
+        różnych organizacji skautowych. Swoją wiedzę instruktorską przekazuje innym uczestnicząc w kształceniu
+        podnoszącym poziom instruktorów i poprzez publikacje. Rozumiejąc wielkość postaci
+        bł. ks. phm. St. W. Frelichowskiego, Patrona Harcerstwa Polskiego, zachęca innych do brania wzoru z
+        błogosławionego.
+    </string>
+
+    <string name="stopnie_oznaczenie_hm">
+        Stopień instruktorski harcmistrza oznacza się poprzez czerwoną podkładkę pod krzyżem harcerskim oraz
+        czerwoną liljkę naszytą na lewym ramieniu. Dodatkowo każda osoba która zdobyła stopień instruktorski
+        nosi lilijkę instruktorską na środkowej części lewej kieszeni na mundurze.
+    </string>
+
+
+    <string name="badenPowell">
+        Urodzony w 1857 r. w Londynie.
+        \n\nW latach 1876–1910 działał w czynnej służbie wojskowej w Anglii, Indiach, Afganistanie i Afryce Południowej.
+        \n\nW wojnie przeciwko Burom wsławił się obroną miasta Mafeking (1899–1900), obleganego przez ponad 7 miesięcy przez Burów, gdzie utworzono oddział chłopców do służby pomocniczej (łącznikowej, wartowniczej). Sytuacja ta uświadomiła mu możliwość powierzenia młodym chłopcom odpowiedzialnych zadań, pod warunkiem, że będzie traktowało się ich poważnie.
+        \n\nW 1903 r. został generalnym inspektorem kawalerii brytyjskiej.
+        \n\nPo zauważeniu że jego książka pt. ,,Aids for scouting” zainteresowała organizacje młodzieżowe, zorganizował próbny obóz na wyspie Brownsea w 1907 roku.
+        \n\nW 1908 r. wydał podręcznik pt. ,,Scouting for Boys”.
+        \n\nW 1910 r. zrezygnował ze służby wojskowej, aby w pełni poświęcić się skautingowi.
+        \n\nW 1910 r. w samej Wielkiej Brytanii było 100 tyś. skautów.
+        \n\nWedług Baden-Powella skauting powinien być szkołą wychowania obywatelskiego w kontakcie z przyrodą, powinien uzupełniać naturalne luki wychowania szkolnego poprzez rozwijanie charakteru, zdrowia i sprawności jednostki oraz jej wartości społecznej w codziennej służbie.
+        \n\nRuch skautek został zapoczątkowany w 1909 r. przez Roberta Baden Powella, ale stwierdził on, że ruch ten powinien być prowadzony przez kobietę, dlatego w 1910 r. poprosił swoją siostrę o pomoc.
+        \n\nOżenił się w 1912 r. z Olave St. Clair Soames, która dołączyła do pracy nad ruchem skautek.
+        \n\nW 1914 r. - w chwili wybuchu 1 Wojny Światowej, Baden Powell oddał się do dyspozycji armii brytyjskiej, jednak ta chciała, aby ten prowadził ruch skautowy.
+        \n\nNa pierwszym zlocie skautowym, w 1920 r. Robert Baden Powell został wybrany ,,Naczelnym Skautem Świata”.
+        \n\nPo osiągnięciu wieku emerytalnego zajmował się organizowaniem i szkoleniem armii terytorialnej w Wielkiej Brytanii.
+        \n\nZa pracę skautową otrzymał tytuł lorda – barona Gilwell, a w posiadłości Gilwell Park został zorganizowany międzynarodowy ośrodek skautowy.
+        \n\nBaden-Powell był wyróżniony wieloma najwyższymi odznaczeniami brytyjskimi oraz odznaczeniami innych krajów, w tym Krzyżem Komandorskim z Gwiazdą Orderu Odrodzenia Polski.
+        \n\nW 1939 r. wyjechał na leczenie do Kenii, gdzie zmarł w 1941 roku.
+        \n\nW sierpniu 1933 r. gościł w Gdyni, gdzie na Polance Redłowskiej spotkał się z harcerzami z całej Polski.
+    </string>
+
+    <string name="malkowski">
+        Urodzony w 1888 r. w Trębkach.
+        \n\nUczył się w Warszawie, Tarnowie, Krakowie i Lwowie, gdzie zdał egzamin dojrzałości
+        \n\nBył współtwórcą organizacji uczniów krakowskich ,,Młodzież”.
+        \n\nStudiował na dwóch uniwersytetach w Lwowie, mimo to nie ukończył studiów na żadnym z nich.
+        \n\nNależał do organizacji ,,Eleusis”, ,,Zarzewia” i ,,Sokoła” - kolejno organizacji filozoficznej, niepodległościowej oraz sportowej.
+        \n\nPo dwukrotnym spóźnieniu się na zajęcia w Wojsku Polskim musiał przetłumaczyć podręcznika pt. ,,Scouting for Boys”.
+        \n\nPrzeprowadził pierwszy kurs skautowy w Polsce w 1911 roku.
+        \n\nOd kwietnia do lipca 1911 r. ukazywała się arkuszami jego praca „Scouting jako system wychowania młodzieży” – pierwsza polska książka o skautingu.
+        \n\nMałkowski wszedł w skład pierwszej Komendy Skautowej, następnie Naczelnej Komendy Skautowej we Lwowie.
+        \n\nW październiku 1911 r. rozpoczął wydawanie „Skauta” - pierwszego polskiego czasopisma skautowego.
+        \n\nW 1912 r. wyjechał do Londynu, aby zdobyć materiały do swojej nowej książki skautowej.
+        \n\nGdy wrócił do Polski został odsunięty od pracy w ,,Skaucie” oraz w Naczelnej Komendzie Skautowej.
+        \n\nW 1913 r. zorganizował wycieczkę skautową na III Wszechbrytyjski Zlot Skautów w Birmingham w Anglii.
+        \n\nNa zlocie w 1913 r. został odznaczony przez Roberta Baden Powella skautowym medalem ,,za zasługi”.
+        \n\nW czerwcu 1913 r. przeniósł się do Zakopanego, gdzie wziął ślub z Olgą Drahonowską.
+        \n\nWraz z wybuchem I wojny światowej wstąpił na krótki czas do Legionów Polskich, wystąpił z nich ze względu na zależność tych formacji od Austrii.
+        \n\nW wynik próby utworzenia niepodległej Rzeczypospolitej Podhalańskiej musiał opuścić Zakopane.
+        \n\nUciekając z Polski udał się do Anglii, a potem do Stanów Zjednoczonych, gdzie zakładał polskie drużyny skautowe wśród imigrantów.
+        \n\nOd września 1915 r. do września 1916 r. pełnił funkcję skautmistrza związkowego w Związku Sokołów Polskich w Ameryce.
+        \n\nPóźniej pojechał do Kanady, gdzie wstąpił do wojska w 1916 roku.
+        \n\nPo służbie w armii Kanadyjskiej i walce na kilku frontach, w tym we Francji, w 1918 r. został przeniesiony do armii gen. Józefa Hallera.
+        \n\nWysłany w misji wojskowej w 1919 roku, przebywał na statku, który natknął się na minę. W katastrofie życie stracił Małkowski orazi 475 innych pasażerów.
+        \n\n11 listopada 2018 r. został pośmiertnie odznaczony Orderem Orła Białego z okazji Narodowych Obchodów Setnej Rocznicy Odzyskania Niepodległości.
+    </string>
+
+    <string name="frelichowski">
+        Urodził się w 1913 r. w Chełmży.
+        \n\nW wieku 9 lat został ministrantem.
+        \n\nPo ukończeniu czterech klas szkoły powszechnej wstąpił w 1923 do ośmioklasowego męskiego Pelplińskiego Gimnazjum Humanistycznego w Chełmży.dw
+        \n\nNa terenie jego gimnazjum działało kilka organizacji młodzieżowych w tym ,,Sodalicja Marjańska” - religijna organizacja, działało tam również Harcerstwo.
+        \n\nW czwartej klasie gimnazjum, 1927 r. został przyjęty do Sodalicji, a w 1928 r. wstąpił do ZHP, do 2 Pomorskiej Drużyny Harcerzy im. Zawiszy Czarnego w Chełmży.
+        \n\nRok później został drużynowym, którym pozostał do 1931 roku.
+        \n\nW czerwcu 1931 r. w Chełmży zdał maturę, a jesienią wstąpił do Wyższego Seminarium Duchownego w Pelplinie.
+        \n\nBył członkiem kręgu kleryckiego działającego w ramach Starszoharcerskiego Zrzeszenia Kleryków ZHP, a w latach 1933–1936 był jego przewodniczącym.
+        \n\nLatem 1935 r. zorganizował wycieczkę letnią i wyjazd 20-osobowej grupy harcerzy na Jubileuszowy Zlot Harcerstwa Polskiego w Spale.
+        \n\nW 1937 r. przyjął święcenia kapłańskie, początkowo pełnił obowiązki sekretarza i kapelana Biskupskiego, lecz później został wikariuszem. Jednocześnie pełnił funkcje kapelana Pomorskiej Chorągwi Harcerzy ZHP
+        \n\n11 września 1939 r. został aresztowany przez Gestapo wraz z wszystkimi księżmi ze swojej parafii. Następnego dnia niemal wszystkich zwolniono, jedynie ks. S. W. Frelichowski pozostał zatrzymany o jeden dzień dłużej.
+        \n\nKilka dni później znów został zatrzymany i uwięziony podczas masowych aresztowaniach w Toruniu.
+        \n\n8 stycznia 1940 r. został przewieziony do obozu przejściowego w Gdańsku, później do obozu koncentracyjnego w Stutthofie.
+        \n\nKońcowo został wywieziony do obozu w Dachau, gdzie pomimo ekstremalnych warunków dalej pełnił posługę kapłańską - organizował wspólne modlitwy, spowiadał, sprawował potajemnie msze i rozdzielał komunię.
+        \n\nNa przełomie 1944/45 r. w obozie wybuchła epidemia tyfusu. Stefan Frelichowski zaangażował się w pomoc chorym, wraz z 32 innymi kapłanami, których udało mu się do tego przekonać.
+        \n\nW 1945 r. podczas pomocy chorym zaraził się tyfusem, który w połączeniu z zapaleniem płuc doprowadził do jego śmierci.
+        \n\nWładze obozowe, łamiąc obowiązującą praktykę, zgodziły się przed kremacją na wystawienie zwłok ks. S. W. Frelichowskiego na widok publiczny, w wyłożonej białym prześcieradłem i udekorowanej kwiatami trumnie.
+        \n\nPostanowieniem prezydenta Bolesława Bieruta z 17 kwietnia 1948 został pośmiertnie odznaczony Krzyżem Oficerskim Orderu Odrodzenia Polski za wybitne zasługi położone w walce o Demokrację i Niepodległość.
+    </string>
+
+    <string name="pilecki">
+        Urodził się 13 maja 1901 roku w Ołońcu, na terenie dzisiejszej Rosji. Był zastępowym zastępu Puchaczy w 1-szej Orłowskiej Drużynie Harcerzy im. Księcia Józefa Poniatowskiego.
+        \n\nW 1940 roku dobrowolnie udał się na łapankę do Warszawy, by dostać się do obozu koncentracyjnego w Auschwitz. Został więźniem o numerze 4859.
+        \n\nW Auschwitz utworzył siatkę konspiracyjną, którą nazwał ZOW (Związek Organizacji Wojskowej). Działałą ona na zasadzie piątek. Pilecki przekazywał informacje swojej zaufanej piątce, a każda z tych osób wybierała kolejne pięć osób, z tym, że piątki nie wiedziały o innych piątkach. Dzięki temu, każdemu wydawało się, że jest wysoko postawiony, więc nikt nie chciał wydać innych, gdyż poniósłby surowe konsekwencje. Ponadto przez to, że nikt  nie wiedział o istnieniu innych piątek, niemożliwym było wytypowanie kto jest na samej górze hierarchii. ,,ZOW” za zadanie miała pomagać innym więźniom, miała również przekazywać wiadomości wewnątrz obozu. Dodatkowo miała zajmować się wynoszeniem raportów na zewnątrz, oraz rozdzielaniem odzieży i jedzenia. Organizacja również zajmowała się przygotowaniem oddziałów, które walczyły by w środku obozu, w przypadku partyzanckiego ataku na KL Auschwitz.
+        \n\nW 1943 roku Pilecki wraz z dwoma innymi więźniami uciekł z obozu.
+        \n\nZmarł 25 maja 1948 roku w Warszawie z rąk polskich komunistów. Wyrok unieważniono w 1990 roku, a w 2006 roku został pośmiertnie awansowany na stopień pułkownika.
+        \n\nByły Rotmistrz, a aktualny pułkownik, Witold Pilecki, jest patronem naszego hufca, czyli 2 Gdyńskiego Hufca Harcerzy “ZBROJA” imienia Rotmistrza Witolda Pileckiego.
+    </string>
+
+    <string name="olga">
+        Urodzona w Krzeszowicach w 1888 roku.
+        \n\nDo roku szkolnego 1911/1912 kształciła się w Państwowej Szkole Przemysłowej we Lwowie.
+        \n\nPo maturze wstąpiła do Konserwatorium Galicyjskiego Towarzystwa Muzycznego we Lwowie, gdzie wkrótce ujawniła swe talenty jako poetka i rzeźbiarka.
+        \n\nByła instruktorką wychowania fizycznego w „Sokole” - organizacji wychowania fizycznego.
+        \n\nDziałała w religijnej organizacji o nazwie ,,Eleusis”, gdzie poznała Andrzeja Małkowskiego.
+        \n\nAndrzeja Małkowski przekonał ją do dołączenia do niepodległościowej organizacji - ,,Zarzewia”.
+        \n\nNiedługo po dołączeniu do ,,Zarzewia” otrzymała stopień porucznika Polskich Drużyn Strzeleckich.
+        \n\nOlga Drahonowska objęłą jako drużynowa pierwszą żeńską (trzecią według kolejności) drużynę skautową we Lwowie - III Lwowska Drużyna Skautek im. Emilii Plater.
+        \n\nByła pierwszą komendantką skautek w Naczelnej Komendzie Skautowej w latach 1911–1912.
+        \n\nW 1912 roku w „Skaucie” ukazał się przystosowany do melodii rewolucyjnej pieśni „Na barykady ludu roboczy” wiersz Ignacego Kozielewskiego „Wszystko, co nasze, Polsce oddamy”, uzupełniony refrenem „Ramię pręż, słabość krusz”. Nosił tytuł „Marsz skautów” i stał się później hymnem ZHP. Przystosowanie i uzupełnienie hymnu było dziełem Olgi Drahonowskiej – wykonanym za zgodą autora.
+        \n\nW czerwcu 1913 r. roku opuściła Lwów udając się na leczenie do Zakopanego, gdzie wzięła ślub z Andrzejem Małkowskim.
+        \n\nPo zakończeniu leczenia prowadziła w Zakopanem harcerstwo żeńskie i męskie.
+        \n\nPod jej komendą skauci stworzyli tajne składy broni w górach: w Dolinie Kościeliskiej, na Hali Pysznej, w Dolinie Roztoki, w Murzasichlu i w grotach Nosala.
+        \n\nW 1915 r. po próbie ogłoszenia przez Andrzeja Małkowskiego Republiki Podhalańskiej jako zaczątku niepodległej Polski policja austriacka wykryła te magazyny, a Olga Drahonowska z mężem, tylko dzięki ostrzeżeniu górali, zdołała uniknąć aresztowania
+        \n\nZmarła w 1979 r. w Zakopanem.
+    </string>
+
+    <string name="lutoslawski">
+        Zaprojektował pierwowzór Krzyża Harcerskiego.
+        \n\nBył członkiem Związku Młodzieży Polskiej „Zet” jako sekretarz centrali zjednoczenia oraz należał do Organizacji Młodzieży Narodowej.
+        \n\nBył komendantem gniazda Polskiego Towarzystwa Gimnastycznego „Sokół” przy Uniwersytecie w Zurychu.
+        \n\nW okresie działań wojennych w 1915 roku został ewakuowany na wschód. W Moskwie otworzył polską szkołę średnią, następnie został kapelanem Brygady Strzelców Polskich.
+        \n\nOd 1903 r. był członkiem Ligi Narodowej i Stronnictwa Narodowo-Demokratycznego. Niedługo później został współpracownikiem Romana Dmowskiego.
+        \n\nWystępował publicznie przeciwko Józefowi Piłsudskiemu i Gabrielowi Narutowiczowi.
+        \n\nW 1907 r. wspólnie z księdzem Janem Gralewskim utworzył czteroletnie Ognisko Wychowawcze Wiejskie w Starej Wsi pod Nowomińskiem.
+        \n\nW 1913 r.  w Zakopanem, udzielił ślubu Andrzejowi Małkowskiemu i Oldze Drahonowskiej.
+        \n\nWspółpracował nad projektem statutu ZHP oraz nad napisaniem Prawa i Przyrzeczenia Harcerskiego.
+    </string>
+
+    <string name="strzembosz">
+        Od września 1945 roku, aż do samorozwiązania się drużyn ZHP na przełomie lat 1948 i 1949 był członkiem ZHP.
+        \n\nW roku maturalnym niemal cała klasa, pod naciskiem wychowawcy, prof. Wincentego Łąckiego (żołnierza ochotnika wojny 1920 roku i żołnierza AK), zapisała się do szkolnego koła ZMP.
+        \n\nProwadził drużynę harcerską w szkole podstawowej przy ul. Hożej. W 1958 r. ukończył kurs dla przewodników w Zawoi.
+        \n\nW 1972 r. obronił doktorat na Uniwersytecie Warszawskim (promotor – prof. Stanisław Herbst), w 1982 r. habilitował się na Wydziale Nauk Humanistycznych KUL, w 1991 r. otrzymał tytuł profesora.
+        \n\nW 1980 r. był jednym z inicjatorów Kręgów Instruktorów im. Andrzeja Małkowskiego (KIHAM), w 1981 r. współtworzył Niezależny Ruch Harcerski (NRH) i był jego wiceprzewodniczącym.
+        \n\nOd 1982 r. zaczął badać partyzantkę antysowiecką, najpierw w białostockim, nad Biebrzą, potem w dawnych województwach północno-wschodnich II RP.
+        \n\nW 1989 r. był jednym z twórców Związku Harcerstwa Rzeczypospolitej, przez dwie kadencje jego Przewodniczącym (1989-1992), a od 1993 Honorowym Przewodniczącym ZHR.
+        \n\nPod koniec życia pracował nad obszerną monografią polskiej partyzantki na ziemiach północno-wschodnich w latach 1939–1941 oraz kończył pracę nad książką „Rewolucja na postronku. Sowiecki system okupacyjny na ziemiach wschodnich II RP 1939-1941”.
+        \n\nPośmiertnie otrzymał tytuł “ Harcmistrza Rzeczypospolitej”.
+        \n\nZmarł w 16 października 2004 w Warszawie.
+
+    </string>
+
+    <string name="przyrzeczenieKomentarz">
+        Harcerz, harcerka stając wobec swojego drużynowego, swojej drużynowej wyraża wolę
+        pełnienia służby; szczerą wolę. Ta deklaracja, która nie ma formy przyrzeczenia, obietnicy,
+        zobowiązania, jest świadomym przyjęciem na siebie obowiązku takiego kształtowania
+        swojego charakteru, aby był on zgodny z wartościami opisanymi w Prawie Harcerskim,
+        a także tym wszystkim co symbolizuje Krzyż Harcerski. Wyrażenie woli przez podkreślenie jej
+        szczerości jest dobrowolne, świadome, wypełnione prawdą.
+        \n
+        \nSłużbę Bogu i Polsce mamy pełnić całym życiem. Dotykamy tutaj problemu drogi po jakiej
+        będziemy szli przez życie, ale także tego jak głęboko będziemy doświadczali naszego życia.
+        Harcerska służba w mundurze, osobiste życie w rodzinie i w gronie przyjaciół, nauka
+        w szkole, praca zawodowa, inne pola aktywności społecznej wypełniamy ideałami
+        harcerskimi. Nie rozdzielamy życia na harcerskie i osobiste. Wszystko czynimy w odniesieniu
+        do Boga.
+        \n
+        \nCzłowiek popełnia błędy. Jeżeli jednak przyjmujemy za swój drogowskaz wartości w naszym
+        przypadku opisane przez Prawo Harcerskie robimy wszystko, aby naprawiać błędy
+        w odniesieniu do tego Prawa. Ogólny drogowskaz formułuje Przyrzeczenie Harcerskie.
+        Składając je harcerz i harcerka powinni przed tym drogowskazem przystanąć, zastanowić
+        się, pomyśleć.
+        \n
+        \nPełnię służbę Bogu – jestem religijny, wypełniam życie treścią dekalogu, jestem apostołem
+        dobrego przykładu. Pełnię służbę Polsce – patriotyzm jest dla mnie ważnym wskazaniem
+        w życiu, nie zapominam o historii i o dniu dzisiejszym, nie uchylam się od służby publicznej,
+        pamiętam o pokoleniach i wydarzeniach minionych. Chętnie niosę pomoc bliźnim –
+        braterstwo jest dla mnie otwarciem serca nie tylko dla harcerzy, ale dla każdego człowieka,
+        to życzliwa gotowość szukania i odpowiadania na wołanie, to miłosierdzie. Jestem posłuszny
+        Prawu Harcerskiemu – wypełniam nakazy Prawa, pracuję nad sobą, nad swoimi
+        ułomnościami, nad charakterem aby Prawo wypełniało możliwie wszystkie ścieżki życia.
+    </string>
+
+    <string name="prawo1Komentarz">
+        Otaczający nas świat jest rzeczywistością trudną, pełną zarówno dobra i nadziei jak
+        pełzającego zła. Tego zła najwięcej jest tam gdzie ludzie zostali pozbawieni korzeni. Prymas
+        Polski ks. Kardynał Stefan Wyszyński największe zagrożenie dla narodu polskiego
+        zespolonego z kościołem katolickim upatrywał w odcięciu od pnia tradycji i dziejów
+        ojczystych, w utracie pamięci chrześcijańskiej i polskiej, w degeneracji moralnej, zabiciu
+        duszy narodu. Właściwa ocena tych zagrożeń, dostrzeganie potrzeb współczesnej Polski
+        i potrzeb ludzi wokół nas wyznaczają zadania jakie „całym życiem” realizować musi każdy
+        harcerz i harcerka.
+        \n
+        \nNasza służba powinna być gotowością czynienia dobra, jego potęgowania i niesienia do
+        innych ludzi i do innych środowisk. Dobrem jest uśmiech, jest dłoń wyciągnięta do
+        płaczącego dziecka, jest szybka reakcja na wołanie o pomoc, gotowość poświęcenia czasu,
+        cennych minut i godzin często nie zaplanowanych. Człowiek świadomy swojej godności,
+        niszczący zło w każdej postaci już w sobie, musi być nieustannie otwarty na innych ludzi.
+        \n
+        \nSłużba wobec Boga jest dla nas wyraźnie nakreślona – codzienna modlitwa, aktywne
+        uczestnictwo we Mszy Świętej oraz praktykach i obrzędach religijnych, współtworzenie
+        kultury chrześcijańskiej, współtworzenie wspólnoty wiernych przez czynną obecność
+        w swojej parafii, zgodność życia z zasadami Dekalogu, rozprzestrzenianie chrześcijańskich
+        ideałów w każdym miejscu i czasie swojego istnienia, apostolstwo dobrego przykładu.
+        Czynimy to w życiu osobistym, ale także w harcerskim mundurze – na obozie, na wycieczce,
+        w lesie, w górach, nad jeziorem. Nasza wiara nie jest naszą sprawą osobistą. Jesteśmy
+        apostołami. Nasze działanie wynika z religijnej, chrześcijańskiej inspiracji. Szanujemy tych,
+        którzy czynią podobnie będąc ludźmi innej religii. Nie jest sztuką dawać świadectwo wiary
+        wobec kolegi z zastępu, innego instruktora, innego człowieka jeżeli wiemy, że łączy nas ten
+        sam Bóg. Jeszcze trudniejszą sprawą staje się nasze świadectwo wobec ludzi, którzy walczą
+        z Bogiem, lub żyją jakby On nie istniał.
+        \n
+        \nDrużyna harcerska nie zastępuje księdza, katechety w nauczaniu religii, nie zastępuje
+        rodziców w wychowaniu religijnym. W drużynie mamy sposobność wypełnić harcerskie
+        braterstwo przykazaniem miłości bliźniego. Z drużyną harcerską, idąc za przykładem
+        naszego drużynowego, uczestniczymy w głębokim przeżywaniu Mszy Świętej bacząc, aby
+        nasza religijność nie była jedynie religijnością odświętną. Wiemy, że instruktor-wychowawca
+        żyje w zgodzie z zasadami etycznymi i moralnymi wynikającymi ze wskazań wiary
+        chrześcijańskiej.
+        \n
+        \nPolska wymaga odrodzenia moralnego i utrwalania tych wartości, które nasz naród chronił
+        przez stulecia. Stąd rozumnie pojmowana służba Bogu jest nieodzowną podstawą służby
+        Polsce.
+        \n
+        \nDramatyczna i trudna jest Polska. Wiemy, że trud smakuje. Nasza Polska to ludzie, to
+        historia, to niepowtarzalny krajobraz i wspaniałe zabytki, cały wielki dorobek duchowy
+        i naukowy, to państwo zamieszkującego nad Wisłą, Wartą, Odrą i Bugiem narodu
+        i skomplikowanego społeczeństwa, to także rodacy żyjący poza granicami na Wschodzie i na
+        Zachodzie. Służba Polsce realizuje się w każdej cząstce życia. Uczymy się, pracujemy,
+        wychowujemy dla pożytku Rzeczypospolitej. Musimy to robić porządnie, według naszych sił,
+        zdolności i umiejętności. To jest nasze sumienne spełnianie obowiązków. Jest to szczególnie
+        ważne teraz, w strukturach i rodzinie europejskich narodów. Obowiązek przyjęty musi być
+        zrealizowany, bo przecież jesteśmy odpowiedzialni i mamy poczucie własnej godności.
+        Budujemy moc i kulturę polskiej pracy. Kim jest drużynowy, zastępowy, harcerz, który nie
+        wypełni dobrowolnie przyjętego obowiązku?
+        \n
+        \nSłowo „służba” charakteryzuje postawę aktywności życiowej. Nie jest to poddanie się, nie jest
+        to zniewolenie, nie jest to oddanie na służbę. Osiągamy w niej pełnię człowieczeństwa. Jeżeli
+        poddajemy się zniewoleniu stajemy się zbędnymi przedmiotami. Harcerz, harcerka, drużyna
+        nie mogą spełniać swojej służby Bogu i Polsce jedynie uczestnicząc w uroczystościach. Tam
+        oczywiście nie może nas zabraknąć, ale to uczestnictwo musi być głęboko zakorzenione
+        w działaniu. Co jest zadaniem harcerza, harcerki? Dobra nauka, dobra praca, dobre
+        wychowanie. Kim jest harcerz, harcerka? Dobrym synem, dobrą córką, dobrym mężem,
+        dobrą żoną, dobrym ojcem, dobrą matką, dobrym człowiekiem… Na takim fundamencie
+        sumiennego działania będziemy mogli przebudowywać rodzinę, naród, szkołę, urząd,
+        państwo, władzę… Siejemy dobro nie tylko wtedy gdy ktoś na nas patrzy, nie wtedy kiedy na
+        tym możemy skorzystać. Co jest natomiast zadaniem instruktora, instruktorki? Ich
+        zadaniem jest przewodzenie harcerzom, harcerkom na drodze do ich przyszłego życia. Stąd
+        instruktor, instruktorka musi się interesować i orientować w tym czym żyje Polska, musi
+        poznawać zagrożenia i bez fałszywych obaw opowiadać się za dobrem przeciw złu. Powinien
+        zabierać głos w ważnych sporach moralnych, wychowawczych i politycznych. Drużyna
+        powinna stawać się miejscem gdzie harcerki, harcerze uczą się szacunku dla innego
+        człowieka, dla innych poglądów, uczą się korzystania z demokracji, gdzie poznają podstawy
+        i praktykę uczciwego gospodarowania. Jeżeli jesteśmy członkami organizacji to sumiennie
+        i systematycznie płacimy składki. To również ma wymiar osobistej uczciwości i rzetelności.
+        \n
+        \nPolska stała się uczestnikiem projektu jednoczącego Europę. Nie wiemy jaki kształt on
+        przybierze. Nasza służba Bogu i Polsce jest drogowskazem. Wspólna Europa Narodów
+        zbudowana na fundamencie kultury łacińskiej wyrosłej z tradycji antycznej i wartości
+        chrześcijaństwa to Europa naszych korzeni. Harcerka, harcerz służąc Polsce będzie
+        poznawał własną kulturę i historię, będzie szanował drugiego człowieka, podejmie walkę
+        z marnotrawstwem, niesolidnością, chamstwem, znajdzie drogi porozumienia z narodami
+        sąsiednimi. Jesteśmy dumni z tego, iż jesteśmy Polakami, ponieważ niesiemy nasza tradycję,
+        nasze doświadczenie, naszą solidarność.
+    </string>
+
+    <string name="prawo2Komentarz">
+        W harcerskich książkach można znaleźć taki rysunek: za zapatrzonym w dal harcerzem stoi
+        rycerz, opierając na jego ramieniu zbrojną i opiekuńczą dłoń. U zarania XX stulecia do
+        harcerskiej idei wychowawczej wprowadzona została postać Zawiszy Czarnego, rycerza bez
+        skazy. Symbol nie tylko prawdomówności. Nie mówił dużo, a jego słowa miały wartość
+        mądrej rady. Przysięga, którą składał tworzyła więź godną człowieka, nigdy nie była przeciw
+        ludziom.
+        \n
+        \nCzas, w którym żyjemy stawia przed nami zadanie niełatwe – musimy stawać się takim
+        rycerzem herbu Sulima. Zbyt wiele słów jest rozumianych wielorako, zbyt wielu ludzi kryje
+        swoje prawdziwe myśli, zbyt wiele kłamstwa, nieuczciwości. Pokręcone ścieżki urzędników,
+        polityków, nauczycieli, znajomych, a my musimy pokazywać, że można i należy iść prosto.
+        Zbyt często nie potrafimy przyznać racji innej niż nasza, uznać naszego błędu. Ukrywana
+        jest prawda, a ceną jest tzw. „święty spokój” i zakłamanie. Zaczyna otaczać nas świat
+        nieprawdy i manipulacji. My tak nie możemy. Odpowiedzialność za słowo jest budulcem
+        honoru. Jedną z najtrudniejszych prób podczas zdobywania sprawności „trzy pióra” jest
+        próba milczenia, która ma nas uczyć mądrego mówienia i mądrego milczenia. Pamiętamy
+        o oddaniu pożyczonej książki. Nie zapominamy o umówionym spotkaniu, o zbiórce. Jeśli nie
+        możemy być obecni usprawiedliwiamy się przed wyznaczonym terminem.
+        Ten sam wymiar – wymiar prawdy - mają także otrzymywane i przyjmowane zadania
+        w zastępie, w drużynie. Należy je wykonać tak, jak się obiecało. Jeśli to miało być jutro, to
+        trzeba poświęcić kino, lody, trzeba dobrze planować zajęcia. Jeżeli wiemy, że nie
+        dysponujemy już nawet jedną minutą, to nie podejmujemy się nowych zadań. Uczciwe
+        będzie nie poddawanie się prośbie.
+        Czy stracił na aktualności wzorzec Zawiszy Czarnego, rycerza służącego królowi, czy przestał
+        obowiązywać kodeks rycerski zapisany we „Wskazówkach dla skautmistrzów” BadenPowella? Zastanówmy się, pamiętając, że nie są ważne sformułowania lecz odczytywana
+        przez nas współczesna treść tego kodeksu opisująca wartości:
+        \n
+        \n1. \„Rycerze nie zdejmują nigdy zbroi, chyba dla nocnego odpoczynku\”
+        \n2. \„Są zobowiązani szukać przygód, by zdobyć rozgłos i sławę\”
+        \n3. \„Bronić biednych i słabych\”
+        \n4. \„Dać pomoc każdemu, kto o nią prosi w słusznej sprawie\”
+        \n5. \„Nie zaczepiać się wzajemnie\”
+        \n6. \„Walczyć dla obrony i pomyślności swego kraju\”
+        \n7. \„Działać dla honoru, a nie dla zysku\”
+        \n8. \„Nigdy, pod żadnym pozorem, nie łamać danego słowa\”.
+        \n9. \„Poświęcać się dla honoru swego kraju\”
+        \n10. \„Wybrać raczej śmierć chlubną, niż haniebną ucieczkę\”
+        \n
+        \nBaden-Powell widział w tych ideałach drogę do wyrobienia mocnych poglądów będących
+        częścią charakteru.
+    </string>
+
+    <string name="prawo3Komentarz">
+        Jeżeli w wielu środowiskach harcerstwo wzbudza reakcje życzliwe i sympatyczne to głównie
+        z powodu przeświadczenia o rzeczywistej służbie drugiemu człowiekowi, z przekonania
+        otaczających nas ludzi, że bezinteresownie niesiemy pomoc bliźniemu, jeżeli pojawia się taka
+        potrzeba. Wydaje się, że to jest dzisiaj ważny miernik miejsca harcerstwa w społeczeństwie.
+        Można w cień usunąć tych – czasem koleżanki i kolegów - którzy ironicznie się uśmiechną
+        na widok młodego człowieka w szarym lub zielonym mundurze. Ciężkie próby jakich
+        doświadczała Polska w XX wieku utrwaliły szczególną symbolikę harcerskiego munduru.
+        Działa on jak znak czerwonego krzyża umieszczony na rękawie, budynku, na karetce
+        pogotowia – tam skieruje swoje kroki człowiek potrzebujący. To jest brzemię naszej
+        odpowiedzialności. Nie mogą zatem istnieć zastępy i drużyny zamknięte w swoim świecie.
+        \n
+        \nOdczytujemy dwa wyraźne i ważne wskazania: pożyteczność i pomoc. Każdy dzień musi być
+        ustawiony jak strzałka busoli – zawsze na pomoc, zawsze na dawanie. Nie są potrzebne
+        fajerwerki, efekciarstwo, ale konieczne jest kryterium pożytku. Jak kapitalnie łączy się to
+        stwierdzenie ze służbą i sumiennym spełnianiem obowiązków z naszego Przyrzeczenia.
+        Jedno jest nieuchronną konsekwencją drugiego. Jako harcerze musimy być gotowi do
+        wypełniania tej służby na miarę wyzwań czasu. Zgodne z potrzebą musi być nasze niesienie
+        pomocy: Ojczyźnie i narodowi, człowiekowi – kiedyś to było Wojenne Pogotowie roku 1939,
+        Pogotowie Zimowe roku 1981, a teraz to jest uczciwość i solidność, to ręka wyciągnięta do
+        kolegi-narkomana, to praca z niewidomymi rówieśnikami, wśród bezdomnych.
+        \n
+        \nGotowość do służby i pomocy musi być w nas przygotowana. Przygotowujemy się przez pracę
+        nad sobą, przez wzbogacanie umiejętności i pogłębianie wiedzy. Nasz służba bliźniemu
+        i miłość bliźniego nie polega na spełnianiu jego życzeń, ale na takiej postawie, na tak
+        ukształtowanym charakterze, aby innym z nami było dobrze. Obserwujemy świat,
+        poszukujemy miejsc oczekujących na pomocną dłoń, odpowiadamy na wołanie. Czuwamy
+        tak jak wzywał nas Jan Paweł II podczas Apelu Jasnogórskiego w roku 1983.
+        \n
+        \nWe „Wskazówkach dla skautmistrzów” czytamy: Ucząc waszych skautów, na początek,
+        spełniania dobrych uczynków w sposób zwyczajny i radosny, a bez świętoszkowatego
+        oglądania się na nagrodę, a w dalszym ciągu zaprawiając ich do służby dla społeczeństwa
+        (…) uczycie ich (…) wtedy nie jak spędzić życie, ale jak żyć pełnią życia. Uśmiech, dłoń,
+        mocne ramiona, codzienny dobry uczynek – kolejny rozwiązany węzełek na chuście niesie
+        posiew nieustannej pomocy. Często jest to tylko potencjalna możliwość niesienia pomocy,
+        stworzenie atmosfery uzyskania jej przez wszystkich potrzebujących – jesteśmy gotowi
+        wewnętrznie do czynienia Dobra.
+        \n
+        \nHarcerz żyje pożytecznie. Z naszej pożyteczności tworzymy konstrukcję życia godziwego,
+        życia godnego człowieka. Każde działanie służy człowiekowi, służy rodzinie, służy narodowi.
+        Nie może się zdarzyć, że stajemy w drodze i okazuje się, że nasza praca nie jest potrzebna:
+        utkany dywan znajdujemy na wysypisku śmieci, napisana książka zapełnia kartony
+        w magazynie księgarni, nauczyciel widzi bezwolne marionetki bez twarzy zamiast uczniów.
+        Drużynowy musi pamiętać, że zadania realizowane podczas prób na stopnie mają sens, są
+        przydatne i pożyteczne. Ile razy zdarza się, że robimy półkę tylko po to, aby „zdobyć”
+        sprawność „stolarza”, albo rozwijamy nikomu niepotrzebną linię telefoniczną „zaliczając”
+        stopień ? Chłopiec ma wrodzony instynkt do dobrego, jeżeli widzi tylko praktyczny sposób
+        jego stosowania; zwyczaj dobrych uczynków (pożytecznego działania) zaspokaja ten instynkt
+        i rozwija go, a rozwijając – wytwarza ducha chrześcijańskiej miłości bliźniego [Baden-Powell].
+        W tym zdaniu znajdujemy sens naszej pożyteczności – jasno określony cel działania
+        i konsekwentne dążenie do niego, cel praktyczny, nawet bardzo drobny, ale pożyteczny.
+        \n
+        \nLudzi idących za drogowskazem lilijki spotykamy wszędzie. Łatwo jest ich rozpoznać.
+        Wystarczy wyciągnąć potrzebującą dłoń, aby napotkać mocne, serdeczne ramiona. Bractwo
+        Ludzi Dobrych w szarych i zielonych mundurach serdecznością swojego działania dla innych
+        odróżniać się powinno od zapatrzonych w siebie przebierańców.
+        \n
+        \nPolska potrzebuje, my potrzebujemy ludzi pożytecznych, ludzi rzetelnej pracy. Jest to
+        niezbędne dla przyszłego dobrobytu, rozumianego jako cywilizacja miłości i wyrastającego
+        z niej miłosierdzia, i bezpiecznego życia.
+    </string>
+
+    <string name="prawo4Komentarz">
+        Jeśliby ktoś rzekł, iż miłuje Boga, a nienawidziłby brata swego, kłamcą jest. Albowiem kto nie
+        miłuje brata swego, którego widzi, Boga, którego nie widzi, jakże może miłować? A to
+        rozkazanie mamy, aby kto miłuje Boga, miłował i brata swego. Otacza nas krąg ludzi
+        stojących wokół kręgu ogniska. To są nasi bliźni. Wśród nich harcerze, harcerki. Obok
+        służby to właśnie braterstwo jest fundamentem idei harcerskiej.
+        \n
+        \nOburzamy się na harcerzy, którzy Prawo i noszony krzyż mają za nic. Często to nie jest ich
+        wina. Nie mieli właściwego drogowskazu. Utożsamili harcerstwo z zabawą i proporcem, a nie
+        stylem życia. Będąc bratem i siostrą możesz im pokazać, że jest inaczej. Odrzucamy ich
+        pseudo-wychowawców, ale jako instruktorów a nie jako ludzi.
+        \n
+        \nNie jesteś bratem ani siostrą, nie realizujesz idei braterstwa, jeżeli w twoim działaniu
+        pojawiają się osobiste rozgrywki, zazdrość o powodzenie innych, atmosfera zawiści,
+        pomówienie. Musisz być gotowy do wybaczenia i zgody.
+        \n
+        \nHarcerskie braterstwo to także obyczaj spotkań – drużyn na zlotach i złazach, instruktorów
+        na konferencjach i w kręgach. Zdajemy egzamin z dojrzałego braterstwa akceptując istnienie
+        w życiu publicznym wielu poglądów i nurtów politycznych. Jak, różniąc się między sobą,
+        zmierzać do jednego celu? Czy przy jednakowych fundamentach ideowych, zasadach, celach
+        w naszej aktywności społecznej akceptujemy ich realizację w zwalczających się
+        organizacjach, ugrupowaniach, środowiskach?
+        \n
+        \nPatrzymy szeroko, obejmujemy przechodzących ludzi, jesteśmy otwarci na rozmowę, gotowi
+        do spotkania, do dialogu. Jan Paweł II w czerwcu 1987 roku zwracając się do młodzieży
+        zgromadzonej na Westerplatte mówił o potrzebnej mocy ducha, sumień i serc. Ta moc
+        potrzebna jest, aby apostołować w swoim otoczeniu radością i nadzieją mimo wszystko, by
+        dawać siebie innym w pracy, w rodzinie, w szkole czy na uczelni, we wspólnocie parafialnej,
+        w środowisku i wszędzie – na miarę swoich możliwości. .
+    </string>
+
+    <string name="prawo5Komenatrz">
+        Na półkach bibliotek stoi wiele historycznych opracowań dotyczących średniowiecznego
+        rycerstwa – herbarze, zamki, życie codzienne, turnieje, broń. Jak to z modą bywa jest to
+        zainteresowanie powierzchowne i przemijające. Tymczasem w harcerstwie „moda” na
+        rycerstwo, na rycerskość jest na trwałe zakotwiczona w Prawie Harcerskim. Ktoś powie, że
+        było to proste w czasach, kiedy kodeks rycerski był obowiązującym kanonem postępowania.
+        A jaki może być rycerz w XXI wieku?
+        \n
+        \nHarcerstwo jest współczesnym rycerskim zakonem. Rycerskość dzisiejszą można
+        rozpatrywać w dwóch płaszczyznach – z jednej strony tkwić ona powinna w naszej
+        osobowości, w charakterze, a z drugiej „po rycersku” postępujemy w codziennych
+        kontaktach z ludźmi, z rzeczywistością.
+        \n
+        \nJesteśmy samodzielni w naszych myślach, w naszej ocenie świata. Kierujemy się w tych
+        ocenach Dekalogiem. Granicą kompromisów jest nasze sumienie, moc naszego charakteru.
+        Jesteśmy zdecydowani i konsekwentni w postępowaniu, ale równocześnie uprzejmi, uczynni,
+        życzliwi. Z bezinteresownej harcerskiej służby wypływa zdolność do poświęceń, osobista
+        dzielność, cnota. Trudna jest dzielność bez walki, dzielność codziennego godnego życia.
+        \n
+        \nDrogowskaz ustawiony w kierunku człowieka nie może obracać się zgodnie z wiejącym
+        wiatrem, polityczną koniunkturą, osobistymi korzyściami. Wobec przeciwników niezbędna
+        jest wspaniałomyślność i zrozumienie. Łagodnej perswazji i uśmiechowi znacznie trudniej
+        odmówić niż idącym w rytm werbli batalionom piechurów z nastawionymi na sztorc
+        bagnetami…
+        \n
+        \nZastanawiając się nad naszą dzisiejszą rycerskością pomyślmy o karności, lojalności
+        i szacunku wzajemnym.
+        \n
+        \nKarność to nie bezmyślne posłuszeństwo. Harcerstwo nie jest wojskiem, chociaż dla służby
+        wojskowej może być przydatne. Jesteśmy karni ponieważ wierzymy w słuszność podjętego
+        działania, ponieważ ufamy drużynowemu, komendantowi, komendantce, hufcowym,
+        naczelnikowi, naczelniczce.
+        \n
+        \nWykonujemy zadania bez względu na trudności. Nie zostawiamy innych w samotnej walce
+        z przeciwnościami, z przeszkodą. Nie znikamy nagle, bez słów. Nie podoba nam się praca
+        zastępu, drużyny, hufca, organizacji – mówimy o tym osobom odpowiedzialnym, nie
+        szeptamy po kątach. Potrafimy wysłuchać słów krytycznych. Bądźmy lojalni wobec samych
+        siebie, abyśmy mogli zawsze spokojnie i bez trwogi spojrzeć w lustro, we własne oczy.
+        \n
+        \nWażną sprawą jest wzajemny szacunek – dla dziewczyny, dla chłopaka, dla matki, dla ojca,
+        dla innych. W rycerskiej tradycji szczególną rolę spełniał szacunek dla kobiety. Harcerz jest
+        „obrońcą”. Harcerka jest gotowa być „opiekunką”. Można też przywołać stwierdzenie sprzed
+        wielu lat, że harcerka jest „szlachetna” na co składa się honor, a za tym duchowe
+        szlachectwo, wielkoduszność, odwaga i wierność. Rycerski honor to całe Prawo Harcerskie,
+        to uznanie godności drugiego człowieka, to kultura osobista, to odpowiedzialność za rodzinę,
+        za zastęp, za wychowanków, to wynik pracy.
+    </string>
+
+    <string name="prawo6Komentarz">
+        Nie ograniczajmy miłowania przyrody – czyli czegoś głębszego od poszanowania – do
+        zachwytu nad kwiatami, do troski o ptaki w mroźną zimę. Oczywiście, że jest to ważne
+        i potrzebne, lecz współczesny świat prowokuje do zupełnie innego spojrzenia. Prowokuje nas
+        świat niszczony przez wyziewy z kominów, ściekające do rzek tłuste i brudne strugi
+        zanieczyszczeń, głupotę ludzi zapominających, że każda pozostawiona puszka jest cegłą
+        stawiającą nasz wspólny grobowiec; prowokuje nas szare słońce i zasłonięte wieczną mgłą
+        niebo w wielkich miastach, a coraz częściej nie tylko w dużych miastach.
+        \n
+        \nProblem zagrożenia katastrofą ekologiczną i ochrony przyrody nabrzmiewa w Polsce
+        i w wielu krajach świata od dziesięcioleci. Wyjeżdżamy na obozy, staramy się żyć
+        w porozumieniu z lasem, z jeziorami, z łąkami i dlatego musimy starać się o ratunek dla
+        nich. Nie zawsze miarą naszej harcerskości powinna być prycza albo potężna brama
+        w środku lasu. Tylko w środowisku natury możemy właściwie wychowywać siebie i innych.
+        Poznawanie przyrody wnosi harmonię między zagadnienia nieskończoności, historii i świata
+        drobnoustrojów, jako części dzieła Wielkiego Stwórcy. I tu sprawa płci i rozmnażania znajduje
+        swój dostojny udział [Baden-Powell]. Czy nie jest to recepta na rozumienie rozchwianej
+        rzeczywistości? Nasze czynne zainteresowanie przyrodą, rozumianą szerzej jako całe
+        środowisko ludzkiego działania, to równocześnie samarytańska posługa dla bezbronnego
+        powietrza i bezbronnych wrzosowisk. To również droga wychowania estetycznego, w miłości
+        dla piękna i wychowania radosnego. Zżycie z przyrodą (…) stanowi niezastąpiony środek do
+        rozbudzenia wyobraźni i umysłu chłopców, a zarazem (…) daje ono chłopcom możność oceny
+        piękna w naturze, a co dalej idzie, również i w sztuce; tą drogą osiąga się wyższy poziom
+        radości życia.
+        \n
+        \nNasze miłowanie i poznawanie przyrody może odnaleźć się na kilku ścieżkach równocześnie:
+        \n\t\t\t• na ścieżce Pracy – gdy podejmujemy działania likwidujące m.in. zanieczyszczenia,
+        wzbogacające leśne szkółki, gdy będziemy pamiętać o pozostawieniu miejsca obozu
+        czy biwaku w nienaruszonym stanie, nawet bliższym naturze niż przed naszym
+        przybyciem;
+        \n\t\t\t• na ścieżce Służby – gdy staniemy obok wszystkich ludzi podejmujących formalne
+        i nieformalne działania chroniące narodowy skarb, jakim jest przyroda, krajobraz,
+        gdy poświęcimy czas dla poznania leśnych tajemnic, gdy stworzymy puszczańskie
+        bractwa uczące żyć w zgodzie z lasem, wodą i górami;
+        \n\t\t\t• na ścieżce Harców – po której pójdziemy na wycieczki, zorganizujemy gry terenowe,
+        będziemy wędrować turystycznymi szlakami i zarazem śladami ludzkiej cywilizacji,
+        podejmiemy się obserwacji przyrody mającej olbrzymie wartości wychowawcze
+        tkwiące w zwykłych sprawach, w budowie gniazda, w macierzyńskiej opiece nad
+        wilczętami, w szczególnej sprawiedliwości i równowadze.
+    </string>
+
+    <string name="prawo7Komentarz">
+        Granice obozowego ogniska są wyznaczone przez rozum i rozsądek. Takimi granicami dla
+        człowieka jako jednostki i jako cząstki zbiorowości, wspólnoty, jest ukształtowana
+        w wychowaniu i tworzona przez samowychowanie wewnętrzna karność, posłuszeństwo
+        wobec nakazów życia, a przede wszystkim wobec powinności będących wynikiem naszej
+        wiary w Boga. Taka karność nie ma oczywiście nic wspólnego z ograniczaniem wolności;
+        ograniczanie wolności wynika przecież z samej istoty życia w określonych warunkach, wśród
+        określonych ludzi i z określoną świadomością.
+        \n
+        \nNad brakiem karności Polaków bardzo bolał Aleksander Kamiński, równocześnie w „Wielkiej
+        Grze” taka dając wskazówkę dla budowy nowej Polski – nasze umiłowanie wolności
+        i wielkoduszności muszą być bezwzględnie uzupełnione karnością i dzielnością; właśnie
+        karnością niezbędną we wszelkim budowaniu. Dlatego strachem mogą napełniać pomysły
+        stawiające na tak daleko idące samowychowanie, że aż prowadzące do braku wszelkiej
+        karności, do oczekiwania na olśnienie i „iluminację” kiedy idzie o realizację celów wspólnoty.
+        W drużynie nie może liczyć się tylko moje zdanie, w środowisku tylko moje racje. Nie można
+        dla indywidualnych racji zrywać sejmów, zawiązywać konfederacji, dzielić się w oparciu
+        o różnice „grubości włosa”. Pojawia się tutaj problem autorytetu – rodziców, drużynowego,
+        nauczyciela, kapelana. Wielu ludzi sprzeniewierza się ideom i zasadom, które głosili. Za
+        słowami nie zawsze idą czyny. W harcerstwie nie można publicznie, często bez dania racji,
+        dyskredytować przełożonych, bo „to wszystko ich wina”. Trzeba przestrzegać dobrego
+        obyczaju: przełożony zwraca uwagę podwładnemu w cztery oczy, a podwładny nie „plotkuje”
+        o swoich zwierzchnikach. Szczególne znaczenie ma karność w organizacji; wypełnianie
+        dobrowolnie przyjętych na siebie obowiązków i realizacja zadań, terminowość, obecność,
+        współdziałanie w hufcu i chorągwi.
+        \n
+        \nW pojęciu karności mieści się sprężystość, sprawność organizacyjna, umiejętność szybkiej
+        reakcji na niespodziewane sytuacje. To także musztra. I nie należy rozumieć musztry jako
+        gwałtu na osobowości wychowanka; jest to pomoc w realizacji założonych celów
+        wychowawczych. Oto co pisał o tym Robert Baden-Powell: Jeżeli chodzi o musztrę skautów,
+        musiałem wiele razy przypominać drużynowym, że należy jej unikać – rozumie się stosowanej
+        w przesadny sposób. Pominąwszy zastrzeżenia ze strony niektórych rodziców przeciwko
+        militaryzowaniu młodzieży, należy się sprzeciwiać musztrze, ponieważ drugorzędny
+        drużynowy albo nie umie dojrzeć wyższego celu Skautingu, (mianowicie wyrobienia
+        indywidualności), albo nie mając dość oryginalności w realizowaniu tego celu, nawet jeśli go
+        dostrzega, zwraca się ku musztrze, jako łatwemu sposobowi wyrobienia u chłopców pewnego
+        rodzaju postawy dla pokazania ich na defiladzie. Z drugiej strony, niektórzy drużynowi idą
+        czasem za daleko w przeciwnym kierunku i pozwalają chłopcom włóczyć się po placu bez
+        żadnej widocznej dyscypliny i sprężystości. To jeszcze gorsze (…) Cała musztra w Skautingu,
+        potrzebna do wyrobienia u chłopców postawy i nauczenia ich, aby ruszali się jak ludzie, a nie
+        jak stado baranów – to parę minut cichych ćwiczeń na początku zbiórki.
+        \n
+        \nPosłuszeństwo znaleźć musi miejsce w każdym wspólnym działaniu:
+        \n\t\t\t• posłuszeństwo rodzicom – szacunek i opieka; szacunek - gdy jesteśmy młodzi, opieka
+        - gdy oni wejdą w okres starości; naszym dążeniem musi być osiąganie porozumienia
+        i zrozumienia mimo różnicy pokoleń; ich mądrość nie jest skutkiem wykształcenia
+        lecz wynika z życiowego doświadczenia; na szacunku oparte są obowiązki pomocy,
+        nauki, uśmiechu; posłuszeństwo rodzicom jest nierozerwalne z pojmowaniem rodziny
+        jako zasadniczego miejsca wychowania;
+        \n\t\t\t• posłuszeństwo przełożonym – wynika z przedstawionego już rozumienia karności
+        i musi być zbudowane na wzajemnym szacunku i autorytecie, opartym na prawdzie
+        i zaufaniu, porozumieniu będącym wynikiem wspólnych celów; żadne posłuszeństwo
+        nie może być ślepe;
+        \n\t\t\t• posłuszeństwo Państwu – w rozważaniach o poszczególnych punktach Prawa
+        Harcerskiego była już mowa o Państwie zbudowanym na demokracji i poszanowaniu
+        człowieka; z takiego posłuszeństwa bierze swój początek praworządność, lojalność,
+        rzetelność w nauce, w pracy, braterstwo; warunkiem nieodzownym takiego
+        posłuszeństwa jest przestrzeganie prawa, nawet jeżeli jest ono niewygodne, nawet
+        jeżeli uważamy, że pewne instrukcje, regulaminy, ustawy, normy mogłyby być lepsze
+        – istnieje zgodna z prawem droga ich zmiany.
+        \n
+        \nKarność i posłuszeństwo niosą w sobie jeszcze jeden wymiar – karnym powinien być także
+        drużynowy wobec swoich harcerzy, hufcowy wobec drużynowych, przełożony wobec
+        podwładnych. Pamiętamy o odpowiedzialności, punktualności, o wewnętrznej dyscyplinie.
+    </string>
+
+    <string name="prawo8Komentarz">
+        Trzaskający i przeskakujący przez gałęzie płomień harcerskiego ogniska jest radością. Warto
+        o tym pamiętać zarówno zasiadając przy tym ognisku jak również rozważając formy pracy
+        harcerskiej, w których ognisko ma swoje godne miejsce.
+        \n
+        \nSięganie do wspomnień z harcerskiej przeszłości często daje nam obraz pogodnego chłopca,
+        radosnej dziewczyny; i nie jest to pogoda beztroska. Jest to rozumna pogoda ducha, która
+        uwiarygodnia chęć służby, chęć niesienia pomocy. Tą pogodą harcerz budzi zaufanie ludzi
+        potrzebujących jego obecności. Ta radość życia musi być obecna nawet w smutku.
+        Harcerski, bezinteresowny uśmiech jest zawsze potrzebny. Nie jest to półuśmiech, uśmiech
+        ironiczny czy fałszywy, nie jest to również hałaśliwy śmiech stwarzający dla innych poczucie
+        zagrożenia. I co najważniejsze: ta pogoda jest z harcerzem, harcerką zawsze. Tajemnica tkwi
+        w określonym stanie ducha, będącym efektem wewnętrznej równowagi. Pogoda, o której
+        mówi Prawo Harcerskie, bliższa jest ufności, nadziei niż radości.
+        \n
+        \nHarcerska pogoda i radość to nie jest „hałaśliwa wesołość”, którą nas próbuje otoczyć świat.
+        Jest to pogoda i radość dawania, a nie ucieczka od problemów, zabawa czy lekkomyślność.
+        Pogodny harcerz daje swoją osobą ukojenie i bezpieczeństwo obecności drugiego, bliskiego
+        człowieka. Jest coś słusznego w stwierdzeniu Baden-Powella, że jeżeli drużyna rozbrzmiewa
+        wesołym śmiechem, jeżeli raduje się powodzeniem osiągniętym we współzawodnictwie,
+        świeżymi wrażeniami z obozu lub wycieczki i nowymi przygodami, nuda nie będzie
+        przerzedzać jej szeregów.
+        \n
+        \nPoza uśmiechem charakterystyczna dla naszej pogody jest harcerska piosenka. Towarzysząc
+        zastępom i drużynom na zbiórkach, wędrówkach, obozach, w czasie ognisk tworzy atmosferę
+        radości. Piosenka to wspaniały sposób na zmianę bezładnej gromady w zwarty i zgrany
+        harcerski zespół, tworzący tak potrzebną wspólnotę. Niestety zbyt często przy ogniskach
+        słychać piosenki smutne, ciche, nieśmiałe, pogłębiające stan zagubienia. Spróbujcie śpiewać
+        inaczej, weselej, mocniej – czy nie czujecie przypływu nowych sił?
+        \n
+        \nZ przykazania miłości Boga i bliźniego wypływa kategoryczny obowiązek radości.
+        Chrześcijańska radość jest narzędziem, za pomocą którego udaje się nam promieniować
+        gotowością do czynnej miłości. W takim nastroju powinniśmy wyrastać, opanowując smutek
+        i zniechęcenie. Naszą smutną twarzą nie możemy nadziei odbierać. Naszą pogodą i radością
+        musimy dawać nadzieję.
+    </string>
+
+    <string name="prawo9Komentarz">
+        Ten punkt Prawa Harcerskiego łączy w sobie dwa, wydawałoby się że przeciwstawne,
+        określenia: oszczędność i ofiarność. Ich związek można ująć w dwóch zdaniach
+        sformułowanych przez O. Jacka Woronieckiego, harcmistrza: Oszczędność jest składnikiem
+        hojności i ofiarności, którym winna służyć i od których nie wolno jej uniezależniać. Innymi
+        słowy trzeba oszczędzać, aby móc wydawać; oszczędzanie dla samego oszczędzania
+        prowadzi z konieczności do skąpstwa.
+        \n
+        \nWymiar dzisiejszy oszczędności i ofiarności to jest także wymiar służby Ojczyźnie. Jak
+        realizowana jest edukacja ekonomiczna, wychowanie gospodarcze w naszych drużynach
+        i zastępach? Rzecz nie tkwi w zbiórce złomu, makulatury czy sprzedaży zniczy, lecz
+        w codziennym szacunku zarówno dla dóbr materialnych jak i duchowych. Czy pamiętamy
+        o tak jeszcze niedawno zakorzenionej w Polsce tradycji poważania dla chleba przejawiającego
+        się w trosce o jego najdrobniejsze okruchy? Rozejrzyjcie się dookoła co się dzieje, nie tylko
+        z chlebem…
+        \n
+        \nJeżeli pojęcie oszczędności uszeregujemy pomiędzy marnotrawstwem i rozrzutnością
+        a chciwością i skąpstwem to zabieg ten pozwoli nam ocenić, jak skomplikowane zadanie
+        tkwi w tak popularnym i prostym słowie. Od sprawności naszego działania zależy
+        oszczędność czasu. Trwoniony czas powoduje, że wciąż musimy doganiać: odłożone sprawy,
+        spotkania i rozmowy z bliskimi, nierozwiązane problemy. Czy pamiętamy o tak pozornie
+        drobnej sprawie jak punktualność? A czy potrafimy oszczędzać siły fizycznie, zdrowie?
+        \n
+        \nDlaczego nie naprawiamy uszkodzonego namiotu? Czy dlatego, że nie ma problemu
+        z kupnem nowego? Dlaczego tak niedbale zwijamy sprzęt po obozie, po biwaku, dlaczego nie
+        wysuszymy brezentowej płachty? Oberwały się linki namiotu – czy trzeba go rzucać w kąt?
+        Zeszyt został zapisany do połowy – czy pozostałe kartki muszą się znaleźć na śmietniku? Czy
+        nie można ich wykorzystać na potrzeby notatnika?
+        \n
+        \nZawisza Czarny prezentował cechę, która łączy w sobie oszczędność dóbr duchowych
+        i materialnych: rozumne milczenie. Milczymy nie dlatego, że nie mamy nic do powiedzenia,
+        lecz znamy cenę wypowiadanych słów. Czasem lepiej dwa razy milczeć niż powiedzieć
+        głupstwo.
+        \n
+        \nMówiąc o harcerskiej ofiarności, mamy w świadomości ofiarę największą, ofiarę życia.
+        Dzisiaj, będąc gotowym na tę największą ofiarę, musimy ją realizować inaczej:
+        \n\t\t• ofiarność w znaczeniu pospolitym – gdy potrzebującym oddajemy nawet to, czego
+        sami nie mamy zbyt wiele; może tylko odrobinę czasu;
+        \n\t\t• ofiarność w służbie Polsce – poświęcamy siebie dla idei, dla rodziny, dla pracy
+        społecznej, dla lepszego życia;
+        \n\t\t\t• ofiarność w służbie bliźnim – nasz uśmiech, energia, możliwości.
+    </string>
+
+    <string name="prawo10Komentarz">
+        Problemu czystości i wstrzemięźliwości dotyczy ostatni punkt Prawa Harcerskiego. Jego
+        realizacja natomiast stanowi punkt wyjścia do kształtowania harcerskiego stylu życia; punkt
+        wyjścia, a nie jego wyłączną treść. Wymaga od nas dyscypliny, samokontroli i pracy nad
+        sobą. Wymaga od nas czystości obyczajów. Wymaga od nas dobrych obyczajów, bo one są
+        fundamentem rodziny, narodu, państwa. Jan Paweł II na spotkaniu z młodzieżą w 1987
+        roku w Gdańsku, na Westerplatte mówił o naszych „prywatnych Westerplatte”, placówkach
+        których nie możemy opuścić chociaż inni tego by od nas oczekiwali, taka byłaby moda, tak
+        pisano by w kolorowych czasopismach.
+        \n
+        \nOczywistą jest szkodliwość dla zdrowia picia alkoholu, palenia tytoniu, używania
+        narkotyków, poddawania się innym nałogom które czasem w sposób zaskakujący przynosi
+        rozwijająca się cywilizacja. Przestrzeganie zasady abstynencji bywało osią sporu
+        w harcerstwie i jest niezmiennie, trwale miernikiem „harcerskości”. Już w roku 1912 o tę
+        zasadę poróżnili się instruktorzy skautowi wywodzący się z „Zarzewia” z tymi z „Eleusis”.
+        Kręgi Instruktorów Harcerskich im. A. Małkowskiego, które w latach 1980-1981 podjęły
+        przewodnictwo w odrodzeniu ruchu harcerskiego wezwały do przestrzegania tej zasady. Na
+        instruktorskich lilijkach pojawiła się „dziesiątka”, symbolicznie nawiązująca do ostatniego
+        punktu Prawa ale przecież będąca wezwaniem do bezwzględnego przestrzegania pozostałych
+        dziewięciu. Złamanie zasady abstynencji jest dla wszystkich widocznym znakiem
+        lekceważenia Prawa Harcerskiego i podważa wiarygodność i prawdziwość naszego
+        Przyrzeczenia Harcerskiego. W przypadku instruktora jest to nie tylko niewychowawcze,, ale
+        także jest zgorszeniem i zakwestionowaniem jego postawy i posługi; a instruktor ma dawać
+        dobry przykład i być dla wszystkich harcerzy nauczycielem i wychowawcą.
+        \n
+        \nWielu ludzi, usłyszawszy o wymogu „czystości”, uśmiecha się uznając go za znak
+        wstecznictwa, archaizmu, braku nowoczesności, próg oddalający nas od społeczeństw
+        rozwiniętych. Nic bardziej błędnego. Jeżeli opieramy się na etyce i moralności
+        chrześcijańskiej to trudno jest dyskutować z taką argumentacją. Bo jeżeli ktoś rozumie
+        nowoczesność jako obniżanie wymagań to właśnie reprezentuje „moralny ciemnogród”. Wielu
+        światłych ludzi w kręgu łacińskiej cywilizacji (czyli tej nam najbliższej) szansę dla Europy
+        widzi w moralnym odrodzeniu. Czystość umacnia wierność i przedkłada potrzebę miłości
+        ponad potrzeby doznań osobistych. Nasza czystość nie dotyczy jedynie prymitywnie
+        rozumianego i przedstawianego życia seksualnego. To także uczciwość myśli, czystość słowa,
+        to zdrowie fizyczne i psychiczne. To odpowiadająca takim wymaganiom hierarchia wartości,
+        a nie spłycanie życia przez zabijające człowieczeństwo rozrywki. Nie można w tym momencie
+        pominąć niezwykłych rozważań Jana Pawła II zawartych w tomie „Mężczyzną i niewiastą
+        stworzył ich”, z których tutaj tylko jedno zdanie: Ciało ludzkie, jego płciowość, jego męskość
+        i kobiecość, jest w samej tajemnicy stworzenia nie tylko źródłem płodności i prokreacji, tak jak
+        w całym porządku natury. Jest w tym ciele „od początku” zawarta właściwość „oblubieńcza”,
+        czyli zdolność wyrażania miłości, tej właśnie miłości, w której człowiek-osoba staje się darem,
+        i spełnia sam sens swego istnienia i bytowania poprzez ten dar.
+        \n
+        \nPolskie doświadczenie historyczne wskazuje jak poprzez propagowanie „używania uciech
+        tego świata”, ułatwienia w dostępie do alkoholu można podkopywać niezawisłość
+        i tożsamość, niszczyć rodzinę i człowieka. Groźba zatracenia w alkoholu i narkotykach jest
+        aktualna, a w zgiełku rozmaitych pseudo-idoli realna. Dla harcerzy oczywistym powinno być
+        utrzymanie i propagowanie postawy zdecydowanie przeciwnej spożywaniu alkoholu
+        i narkotyków. Nie rozstrzygają one żadnego z dotykających nas osobistych problemów,
+        a dodają wiele nowych, zdecydowanie bardziej niebezpiecznych. Jeżeli ktoś nosi krzyż
+        harcerski i uważa, że „prywatnie” takie „głupoty” go nie dotyczą to droga jest jedna – zdjęcie
+        munduru, zdjęcie harcerskiego krzyża. On wybiera inny styl życia.
+        \n
+        \nZe wszystkich punktów w wychowaniu chłopca najtrudniejszym i jednym z najważniejszych
+        jest punkt dotyczący higieny seksualnej. Ciało, umysł i dusza, zdrowie, moralność
+        i charakter, wszystko to wchodzi w grę w tej sprawie [Bi-Pi]. Przewrót kulturowy jaki
+        nastąpił w drugiej połowie XX wieku, a który przejawił się m.in. w sferze moralnej, sprawia,
+        że na sprawy wychowania mężczyzny i kobiety musimy spojrzeć w sposób szczególnie
+        uważny. Niestety często problem ten jest pomijany w wychowaniu harcerskim. Sprawy nie
+        załatwiają odrębnie działające drużyny harcerek i drużyny harcerzy. Potrzebna jest
+        współpraca drużynowych. Mężczyzną ani kobietą nie staje się człowiek przez doświadczenia
+        seksualne. Tak jak nie staje się bardziej dorosłym paląc papierosa, pijąc piwo, czy zapalając
+        skręta marihuany. Dorosłym stajemy się dojrzewając do dobroci, do wierności, do uczciwości
+        – wreszcie do miłości.
+        \n
+        \nCzy można w tym miejscu nie wspomnieć słów Ojca Świętego wypowiedzianych na Castel
+        Gandolfo 1 września 1996 roku m.in. do instruktorów i instruktorek ZHR, że naród, który
+        zabija własne dzieci jest narodem bez przyszłości, a w konsekwencji udziału ZHR
+        w październikowych Narodowych Marszach w Obronie Życia.
+        \n
+        \nJeżeli powrócimy myślą do postaci dawnych rycerzy i ich szacunku do kobiet, to chcąc stać
+        się współczesnym rycerzem, należy wszystko czynić w sposób czysty. Bez szacunku nie
+        stworzymy obrazu dziewczyny, kobiety opartego o przyjaźń, o miłość. Miłość między
+        mężczyzną a kobieta jest często związana z pożądaniem, lecz cechą właściwą człowiekowi
+        jest opanowanie wyobraźni, opanowanie języka, opanowanie uczynków – jest konieczność
+        ciągłej samokontroli. Tylko w ten sposób będziemy uznawać godność drugiej osoby. Tylko
+        tak dojdziemy do założenia dobrej rodziny i dalej będziemy w tej rodzinie żyć. Przy
+        rozważaniu problemu czystości wkraczamy w sferę uczuć dwojga ludzi, a ponieważ powinny
+        one prowadzić do trwałego połączenia w małżeństwie, wymagają szczególnej delikatności
+        i rozwagi.
+        \n
+        \nHarcerka, harcerz jest czysty w mowie: nie kłamie, nie obraża innych ludzi, nie przeklina.
+        Przekleństwa używane podczas zabaw sportowych, w pracy, w rywalizacji, świadczą o braku
+        poczucia własnej godności, a także braku szacunku dla innych. Niedopuszczalne jest
+        używanie przekleństw przez instruktorów. Rzecz dotyczy zarówno chłopców jak i dziewcząt.
+        Harcerka, harcerz musi być sprawny, musi uczestniczyć w sportowych zabawach
+        i zawodach, musi dbać o swoje zdrowie, musi poznawać swój organizm. Harcerze i harcerki
+        mogą dawać przykład – codziennej czystości, sprawności fizycznej, wycieczek. Na wysokim
+        poziomie realizujemy próby na sprawności samarytańskie, sportowe i turystyczne, tworzymy
+        harcerskie kluby sportowe, dbamy o mundur i wygląd zewnętrzny.
+    </string>
+    <string name="biografie_button">Biografie</string>
+    <string name="stopnie_button">Stopnie</string>
+    <string name="struktura_button">Struktura i Funkcje</string>
+    <string name="dziewiec_gdh">9 GDH</string>
+    <string name="robert_baden_powell">Robert Baden-Powell</string>
+    <string name="_9_harcerz_jest_oszcz_dny_i_ofiarny">9. Harcerz jest oszczędny i ofiarny</string>
+    <string name="_8_harcerz_jest_zawsze_pogodny">8. Harcerz jest zawsze pogodny.</string>
+    <string name="_10_harcerz_jest_czysty_w_my_li_mowie_i_uczynkach_nie_pali_tytoniu_i_nie_pije_napoj_w_alkoholowych">10. Harcerz jest czysty w myśli, mowie i uczynkach, nie pali tytoniu i nie pije napojów alkoholowych.</string>
+    <string name="komentarz">Komentarz</string>
+    <string name="_4_harcerz_w_ka_dym_widzi_bli_niego_a_za_brata_uwa_a_ka_dego_innego_harcerza">4. Harcerz w każdym widzi bliźniego, a za brata uważa każdego innego harcerza.</string>
+    <string name="_5_harcerz_post_puje_po_rycersku">5. Harcerz postępuje po rycersku</string>
+    <string name="_7_harcerz_jest_karny_i_pos_uszny_rodzicom_i_wszystkim_swoim_prze_o_onym">7. Harcerz jest karny i posłuszny rodzicom i wszystkim swoim przełożonym.</string>
+    <string name="_6_harcerz_mi_uje_przyrod_i_stara_si_j_pozna">6. Harcerz miłuje przyrodę i stara się ją poznać</string>
+    <string name="_3_harcerz_jest_po_yteczny_i_niesie_pomoc_bli_nim">3. Harcerz jest pożyteczny i niesie pomoc bliźnim.</string>
+    <string name="_2_na_s_owie_harcerza_polegaj_jak_na_zawiszy">2. Na słowie harcerza polegaj jak na Zawiszy.</string>
+    <string name="_1_harcerz_s_u_y_bogu_i_polsce_i_sumiennie_spe_nia_swoje_obowi_zki">1. Harcerz służy Bogu i Polsce i sumiennie spełnia swoje obowiązki.</string>
+    <string name="mam_szczer_wol_ca_ym_yciem_pe_ni_s_u_b_bogu_i_polsce_nie_ch_tn_pomoc_bli_nim_i_by_pos_usznym_prawu_harcerskiemu">Mam szczerą wolę całym życiem pełnić służbę Bogu i Polsce, nieść chętną pomoc bliźnim i być posłusznym Prawu Harcerskiemu.</string>
+    <string name="m_odzik">Młodzik</string>
+    <string name="oznaczenie_stopnia">Oznaczenie stopnia</string>
+    <string name="sylwetka_stopnia">Sylwetka stopnia</string>
+    <string name="stopnie_harcerskie">Stopnie Harcerskie</string>
+    <string name="wiadomo_do_zaszyfrowania">Wiadomość do zaszyfrowania</string>
+    <string name="zaszyfruj">Zaszyfruj</string>
+    <string name="twoja_zaszyfrowana_wiadomo">Twoja zaszyfrowana wiadomość</string>
+    <string name="walny_zjazd_zhr">Walny Zjazd ZHR</string>
+    <string name="organy_zwi_zkowe">Organy Związkowe</string>
+    <string name="organizacja_harcerzy">Organizacja Harcerzy</string>
+    <string name="naczelnik_harcerzy">Naczelnik Harcerzy</string>
+    <string name="hufce">Hufce</string>
+    <string name="dru_yny">Drużyny</string>
+    <string name="obwody_zhr">Obwody ZHR</string>
+    <string name="okr_gi_zhr">Okręgi ZHR</string>
+    <string name="naczelnictow_zhr">Naczelnictow ZHR</string>
+    <string name="przewowdnicz_cy_zhr">Przewowdniczący ZHR</string>
+    <string name="komisja_rewizyjna_okr_g_w">Komisja Rewizyjna Okręgów</string>
+    <string name="s_d_harcerski">Sąd Harcerski</string>
+    <string name="rada_naczelna">Rada Naczelna</string>
+    <string name="komisja_rewizyjna_zwi_zku">Komisja Rewizyjna Związku</string>
+    <string name="chor_gwie_harcerzy">Chorągwie Harcerzy</string>
+    <string name="g_wna_kwatera_harcerzy">Główna Kwatera Harcerzy</string>
+    <string name="pe_na_struktura_zhr">Pełna struktura ZHR</string>
+    <string name="musztra">Musztra</string>
+    <string name="statut_zhr">Statut ZHR</string>
+    <string name="sprawno_ci">Sprawności</string>
+    <string name="regulamin_umundurowania">Umundurowanie</string>
+    <string name="symbolika">Symbolika</string>
+    <string name="ramiona_krzy_a">Ramiona Krzyża</string>
+    <string name="lilijka">Lilijka</string>
+    <string name="onc">ONC</string>
+    <string name="ig_a_magnetyczna">Igła Magnetyczna</string>
+    <string name="sznur">Sznur</string>
+    <string name="podk_adka_pod_krzy_harcerski">Podkładka pod Krzyż Harcerski</string>
+    <string name="najwy_szy_p_omie">Najwyższy Płomień</string>
+    <string name="redni_p_omie">Średni Płomień</string>
+    <string name="drewno_pod_p_omieniem">Drewno pod płomieniem</string>
+    <string name="zbroja">„Zbroja”</string>
+    <string name="zbroja_text1">Dałeś mi Panie zbroję, dawny kuł płatnerz ją\n W wielu pogięta bojach, w wielu ochrzczona krwią\n W wykutej dla giganta potykam się co krok\n Bo jak sumienia szantaż uciska lewy bok</string>
+    <string name="zbroja_text2">Lecz choć zaginął hełm i miecz\nDla ciała żadna w niej ostoja\nTo przecież w końcu ważna rzecz\nZbroja</string>
+    <string name="zbroja_text3">Magicznych na niej rytów dziś nie odczyta nikt\nAle wykuta z mitów i wieczna jest jak mit\nDo ciała mi przywarła, nie daje żyć i spać\nA tłum się cieszy z karła, co chce giganta grać</string>
+    <string name="zbroja_text4">Lecz choć zaginął hełm i miecz\nDla ciała żadna w niej ostoja\nBo przecież w końcu ważna rzecz\nZbroja</string>
+    <string name="zbroja_text5">A taka w niej powaga dawno zaschniętej krwi\nŻe czuję jak wymaga i każe rosnąć mi\nByć może nadaremnie, lecz stanę w niej za stu\nZdejmij ją Panie ze mnie, jeśli umrę podczas snu</string>
+    <string name="zbroja_text_6">Bo choć zaginął hełm i miecz\nDla ciała żadna w niej ostoja\nTo w końcu życia warta rzecz\nZbroja\nZbroja</string>
+    <string name="wpisz_wiadomosc">Wpisz wiadomość</string>
+    <string name="zaszyfrowana_wiadomosc">Zaszyfrowana wiadomość</string>
+</resources>

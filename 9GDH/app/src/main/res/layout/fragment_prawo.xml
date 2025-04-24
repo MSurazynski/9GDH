@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrawoFragment"
+    style="@style/fragmentStyle"
+    android:orientation="vertical">
+
+    <android.widget.Button
+        android:id="@+id/bgDesc_Button_PrawoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000000"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1_PrawoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/przyzeczenie_Button_PrawoFragment"
+                style="@style/buttonBottomStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mam_szczer_wol_ca_ym_yciem_pe_ni_s_u_b_bogu_i_polsce_nie_ch_tn_pomoc_bli_nim_i_by_pos_usznym_prawu_harcerskiemu"
+                android:textSize="15sp"
+                android:background="@drawable/rec_rad_20dp"/>
+
+
+            <Button
+                android:id="@+id/one_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_harcerz_s_u_y_bogu_i_polsce_i_sumiennie_spe_nia_swoje_obowi_zki" />
+
+            <Button
+                android:id="@+id/two_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_na_s_owie_harcerza_polegaj_jak_na_zawiszy" />
+
+            <Button
+                android:id="@+id/three_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_harcerz_jest_po_yteczny_i_niesie_pomoc_bli_nim" />
+
+            <Button
+                android:id="@+id/four_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_harcerz_w_ka_dym_widzi_bli_niego_a_za_brata_uwa_a_ka_dego_innego_harcerza" />
+
+            <Button
+                android:id="@+id/five_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_harcerz_post_puje_po_rycersku" />
+
+            <Button
+                android:id="@+id/six_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_6_harcerz_mi_uje_przyrod_i_stara_si_j_pozna" />
+
+            <Button
+                android:id="@+id/seven_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_7_harcerz_jest_karny_i_pos_uszny_rodzicom_i_wszystkim_swoim_prze_o_onym" />
+
+            <Button
+                android:id="@+id/eight_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_8_harcerz_jest_zawsze_pogodny" />
+
+            <Button
+                android:id="@+id/nine_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_9_harcerz_jest_oszcz_dny_i_ofiarny" />
+
+            <Button
+                android:id="@+id/ten_Button_PrawoFragment"
+                style="@style/buttonBackgroundStyle"
+                android:layout_marginBottom="0dp"
+                android:textSize="@dimen/text_regular_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_10_harcerz_jest_czysty_w_my_li_mowie_i_uczynkach_nie_pali_tytoniu_i_nie_pije_napoj_w_alkoholowych" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/desc_LinearLayout_PrawoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="3"
+        style="frameBottomTopCornersStyle"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="20dp">
+
+        <ScrollView
+            style="@style/frameBottomTopCornersStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewBigStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/komentarz" />
+
+                <TextView
+                    android:id="@+id/desc_TextView_PrawoFragment"
+                    style="@style/textViewRegularStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

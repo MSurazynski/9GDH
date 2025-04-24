@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StrukturaFragment"
+    style="@style/fragmentStyle">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.widget.Button
+            android:id="@+id/strukturaBg_Button_StrukturaFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:background="#000000"
+            android:elevation="10dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/popUp_ConstraintLayout_StrukturaFragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/struktura_Scrollview_StrukturaFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/struktura_ConstraintLayout_StrukturaFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/frameBottomStyle"
+                    android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                    android:layout_marginTop="@dimen/margin_border_vertical"
+                    android:layout_marginRight="@dimen/margin_regular_horizontal"
+                    android:layout_marginBottom="@dimen/margin_border_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView1_StrukturaFragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/margin_regular_horizontal"
+                        style="@style/infoStyle"
+                        android:layout_gravity="center_vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="5">
+
+                        <TextView
+                            android:id="@+id/textView1_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/textViewRegularStyle"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="0dp"
+                            android:text="@string/struktura_opis" />
+
+                        <Button
+                            android:id="@+id/pelnaStruktura_Button_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            style="@style/buttonAccentStyle"
+                            android:textSize="@dimen/text_regular_size"
+                            android:text="@string/pe_na_struktura_zhr"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/walnyZjazd_Button_StrukturaFragment"
+                    style="@style/buttonBottomStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/walny_zjazd_zhr"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2_StrukturaFragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/bottomArrowStyle"/>
+
+                    <ImageView
+                        android:id="@+id/imageView3_StrukturaFragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/bottomArrowStyle"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/organizacja_Button_StrukturaFragment"
+                        style="@style/buttonBottomStyle"
+                        android:textSize="@dimen/text_regular_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/organizacja_harcerzy"/>
+
+                    <Button
+                        android:id="@+id/organy_Button_StrukturaFragment"
+                        style="@style/buttonBottomStyle"
+                        android:textSize="@dimen/text_regular_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/organy_zwi_zkowe"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/organizacja_LinearLayout_StrukturaFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/imageView4_StrukturaFragment"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/naczelnik_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/buttonBottomStyle"
+                        android:textSize="@dimen/text_regular_size"
+                        android:text="@string/naczelnik_harcerzy"/>
+
+                    <ImageView
+                        android:id="@+id/imageView5_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/gk_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/buttonBottomStyle"
+                        android:text="@string/g_wna_kwatera_harcerzy"
+                        android:textSize="@dimen/text_regular_size"/>
+
+                    <ImageView
+                        android:id="@+id/imageView6_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/choragiew_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/buttonBottomStyle"
+                        android:text="@string/chor_gwie_harcerzy"
+                        android:textSize="@dimen/text_regular_size" />
+
+                    <ImageView
+                        android:id="@+id/imageView7_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/hufce_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/buttonBottomStyle"
+                        android:text="@string/hufce"
+                        android:textSize="@dimen/text_regular_size"/>
+
+                    <ImageView
+                        android:id="@+id/imageView8_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/druzyny_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/buttonBottomStyle"
+                        android:layout_marginBottom="@dimen/margin_border_vertical"
+                        android:text="@string/dru_yny"
+                        android:textSize="@dimen/text_regular_size"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/organy_LinearLayout_StrukturaFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/imageView9_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/bottomArrowStyle"/>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1_StrukturaFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <Button
+                            android:id="@+id/komiskaRewizyjnaZwiazku_Button_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonBottomStyle"
+                            android:text="@string/komisja_rewizyjna_zwi_zku"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"/>
+
+                        <Button
+                            android:id="@+id/redaNaczelna_Button_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonBottomStyle"
+                            android:text="@string/rada_naczelna"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"
+                            android:layout_margin="0dp"/>
+
+                        <Button
+                            android:id="@+id/sadHarcerski_Button_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonBottomStyle"
+                            android:text="@string/s_d_harcerski"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2_StrukturaFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/bottomArrowStyle"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/bottomArrowStyle"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/bottomArrowStyle"
+                            android:visibility="invisible"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3_StrukturaFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/komisjaRewizyjnaOkregow_Button_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonBottomStyle"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/komisja_rewizyjna_okr_g_w"/>
+
+                        <Button
+                            android:id="@+id/przewodniczacy_Button_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonBottomStyle"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"
+                            android:text="@string/przewowdnicz_cy_zhr"/>
+
+
+                        <Space
+                            android:id="@+id/space1_StrukturaFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/buttonGenericStyle"
+                            android:textSize="@dimen/text_small_size"
+                            android:padding="@dimen/padding_small"
+                            android:visibility="invisible"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/bottomArrowStyle"/>
+
+                    <Button
+                        android:id="@+id/naczelnictwo_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/buttonBottomStyle"
+                        android:textSize="@dimen/text_small_size"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/naczelnictow_zhr"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/bottomArrowStyle"/>
+
+
+                    <Button
+                        android:id="@+id/okregi_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/buttonBottomStyle"
+                        android:textSize="@dimen/text_small_size"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/okr_gi_zhr" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/bottomArrowStyle"/>
+
+
+                    <Button
+                        android:id="@+id/obwody_Button_StrukturaFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/buttonBottomStyle"
+                        android:layout_marginBottom="@dimen/margin_border_vertical"
+                        android:textSize="@dimen/text_small_size"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/obwody_zhr" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/popUp_ConstraintLayout_StrukturaFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            style="@style/frameBottomTopCornersStyle"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:visibility="gone"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/desc_ScrollView_StrukturaFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <LinearLayout
+                    android:id="@+id/desc_LinearLayout_StrukturaFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name_TextView_StrukturaFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hufiec"
+                        style="@style/textViewBigStyle"/>
+
+                    <TextView
+                        android:id="@+id/desc_TextView_StrukturaFragment"
+                        style="@style/textViewRegularStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/struktura_chorgwie"
+                        android:layout_marginTop="0dp"/>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4_StrukturaFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/desc_TextView_StrukturaFragment">
+
+
+                        <LinearLayout
+                            android:id="@+id/przewodniczacy_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="7dp"
+                                android:src="@drawable/struktura_przewodniczacy" />
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:text="Przewodniczący ZHR\nSznur skórzany w kolorze białym z białym suwakiem noszony z ramienia"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rewizjaOkregu_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Komisji Rewizji Okręgu:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_przewodniczacy_rewizji_okregu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przewodniczący Komisji Rewizyjnej Związku\nSznur w kolorze białym z czerwonym suwakiem noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_czlonek_rewizji_okregu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek Komisji Rewizyjnej Związku\nSznur w kolorze białym z czerwonym suwakiem noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rewizjaZwiazku_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Komisji Rewizji Związku:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_przewodniczacy_komisji_rewizyjnej_zwiazku" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przewodniczący Komisji Rewizyjnej Związku\nSznur skórzany w kolorze białym z czerwonym suwakiem noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_czlonek_komisji_rewizyjnej_zwiazku" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek Komisji Rewizyjnej Związku\nSznur skórzany w kolorze białym z czerwonym suwakiem noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/okreg_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Zarządzie Okręgu:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_przewodniczacy_okregu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przewodniczący Zarządu Okręgu\nSznur w kolorze białym noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_wiceprzewodniczacy_okregu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Wiceprzewodniczący Zarządu Okręgu\nSznur w kolorze białym noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_czlonek_okregu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek Zarządu Okręgu\nSznur w kolorze białym noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/sad_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Sądzie Harcerskim:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_prezes_sadu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Prezes\nSznur skórzany w kolorze białym z zielonym
+                                    suwakiem noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_wiceprezes_sadu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Wiceprezes ZHR\nSznur skórzany w kolorze białym z zielonym
+                                    suwakiem noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_czlonek_sadu" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek Sądu Harcerskiego\nSznur skórzany w kolorze białym z zielonym
+                                    suwakiem noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/radaNaczelna_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="7dp"
+                                android:src="@drawable/struktura_rada_naczelna" />
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:text="Członek Rady Naczelnej\nSznur skórzany w kolorze białym z granatowym suwakiem, noszony spod ramienia"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/naczelnictwo_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Naczelnictwie:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_przewodniczacy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przewodniczący ZHR\nSznur skórzany w kolorze białym z białym
+                                    suwakiem noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_wiceprzewodniczacy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Wiceprzewodniczący ZHR\nSznur skórzany w kolorze białym z białym
+                                    suwakiem noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="7dp"
+                                    android:src="@drawable/struktura_czlonkowie_naczelnictwa" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek Naczelnictwa\nsznur skórzany w kolorze białym z białym suwakiem noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/naczelnik_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/struktura_naczelnik" />
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:text="Naczelnik Harcerzy\nBrązowy pleciony sznur noszony z ramienia"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/glownaKwatera_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Głównej Kwaterze Harcerzy:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_naczelnik" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Naczelnik harcerzy\nBrązowy pleciony sznur noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_zastepca_naczelnika" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Zastępca naczelnika harcerzy\nBrązowy pleciony sznur noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_czlonek_glownej_kwatery" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek głównej kwatery harcerzy\nBrązowy pleciony sznur noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_czlonek_glownej_kwatery" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przewodniczący komisji harcmistrzowskiej\nBrązowy pleciony sznur noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_wspolpracownik_glownej_kwatery" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Współpracownik głównej kwatery harcerzy\nSznur innej pełnionej funkcji
+                                     wraz ze skurzanym brązowym suwakiem"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/chorogiew2_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Chorągwi:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_komendant_chorogwi" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Komendant chorągwi\nZłoty sznur noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_zastepca_komendanta_chorogwi" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Zastępca komendanta chorągwi\nZłoty sznur noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_czlonek_komendy_chorogwi" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek komendy chorągwi\nZłoty sznur noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/hufiec_LinearLayout_StrukturaFragemnt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w Hufcu:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_hufcowy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Hufcowy\nSrebrny sznur noszony z ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_zastepca_hufcowego" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Zastępca hufcowego\nSrebrny sznur noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_czlonek_rady_hufca" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Członek komendy hufca\nSrebrny sznur noszony spod kołnierza"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/druzyna_LinearLayout_StrukturaFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w pionie harcerskim i wędrowniczym:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_druzynowy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Drużynowy\nGranatowy sznur noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_kwatermistrz" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Kwatermistrz\nCzerwony sznur noszony spod ramienia"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_przyboczny" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Przyboczny\nZielony sznur noszony spod ramienia."
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_zastepowy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Zastępowy\nBrązowy sznur noszony spod ramienia."
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_podzastepowy" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Podzastępowy\nBrązowy sznur noszony z ramienia."
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                style="@style/textViewRegularStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:text="Funkcje w pionie zuchowym:"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_general" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Generał zuchów\nBłękitny sznur noszony z ramienia."
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/struktura_wodz" />
+
+                                <TextView
+                                    style="@style/textViewRegularStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="5"
+                                    android:text="Wódz gromady zuchowej\nBłękitny sznur noszony spod ramienia."
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

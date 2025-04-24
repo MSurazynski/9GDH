@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StopienFragment"
+    style="@style/scrollViewStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_TextView_StopienFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textViewBigStyle"
+            android:textSize="@dimen/text_extra_large_size"
+            android:text="@string/m_odzik"/>
+
+        <ImageView
+            android:id="@+id/image_ImageView_StopienFragment"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/stopnie_mlodzik_v2"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_regular_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textViewBigStyle"
+            android:text="@string/oznaczenie_stopnia"/>
+
+        <TextView
+            android:id="@+id/visual_TextView_StopienFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textViewRegularStyle"
+            android:text="@string/stopnie_oznaczenie_mlodzik"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textViewBigStyle"
+            android:text="@string/sylwetka_stopnia"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/desc_TextView_StopienFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textViewRegularStyle"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/margin_border_vertical"
+            android:text="@string/stopnie_idea_mlodzik"/>
+    </LinearLayout>
+</ScrollView>

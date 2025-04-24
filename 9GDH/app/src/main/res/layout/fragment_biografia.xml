@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiografiaFragment"
+    style="@style/scrollViewStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/title_TextView_BiografieFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textViewBigStyle"
+            android:text="@string/robert_baden_powell"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_regular_horizontal"
+            android:layout_marginRight="@dimen/margin_regular_horizontal"
+            android:layout_marginTop="@dimen/margin_regular_vertical"
+            android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+            <ImageView
+                android:id="@+id/image_ImageView_BiografieFragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintDimensionRatio="W, 1.3:1"
+                android:background="@drawable/baden_powell_biografie"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/desc_TextView_BiografieFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textViewRegularStyle"
+            android:layout_marginBottom="@dimen/margin_border_vertical"
+            android:text="@string/badenPowell"/>
+
+    </LinearLayout>
+</ScrollView>

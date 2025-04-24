@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark theme -->
+
+    <color name="bg_dark">#222831</color>
+    <color name="bottom_layer_dark">#31363F</color>
+    <color name="top_layer_dark">#444a57</color>
+    <color name="accent_dark">#76ABAE</color>
+
+    <color name="text_dark">#EEEEEE</color>
+    <color name="text_hint_dark">#8a8a8a</color>
+
+    <!-- Light theme -->
+
+    <color name="bg_light">#FEFAF6</color>
+    <color name="bottom_layer_light">#EADBC8</color>
+    <color name="top_layer_light">#DAC0A3</color>
+    <color name="accent_light">#102C57</color>
+
+    <color name="text_light">#FF000000</color>
+    <color name="text_hint_light">#696969</color>
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BiografieMenuFragment"
+    style="@style/scrollViewStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_border_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/baden_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/baden_powell_biografie"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_border_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/malkowski_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_malkowski"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <!-- Second row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_border_vertical"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/olga_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_olga"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/pilecki_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_pilecki"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <!-- Third row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_border_vertical"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/lutoslawski_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_lutoswlawski"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_regular_vertical">
+
+                <ImageButton
+                    android:id="@+id/frelichowski_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_frelichowski"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <!-- Fourth row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_border_vertical"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_border_vertical">
+
+                <ImageButton
+                    android:id="@+id/strzembosz_ImageButton_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_strzembosz"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_regular_horizontal"
+                android:layout_marginRight="@dimen/margin_regular_horizontal"
+                android:layout_marginTop="@dimen/margin_regular_vertical"
+                android:layout_marginBottom="@dimen/margin_border_vertical">
+
+                <Space
+                    android:visibility="gone"
+                    android:id="@+id/space_BiografieMenuFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W, 1.3:1"
+                    android:background="@drawable/biografie_malkowski"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

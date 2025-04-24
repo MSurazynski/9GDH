@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fragmentStyle"
+    tools:context=".Symbolika_MundurFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                style="@style/marginStyle"
+                android:layout_marginTop="@dimen/margin_border_vertical"
+                android:layout_gravity="center"
+                android:src="@drawable/symbolika_pagon_wedrowniczy_v3"/>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="@string/najwy_szy_p_omie" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/pagon_wedrowniczy1"/>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="@string/redni_p_omie" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/pagon_wedrowniczy2"/>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="Najniższy Płomień"/>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/pagon_wedrowniczy3"/>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewBigStyle"
+                android:textAlignment="viewStart"
+                android:text="@string/drewno_pod_p_omieniem"/>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textViewRegularStyle"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/margin_extended"
+                android:text="@string/pagon_wedrowniczy4" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

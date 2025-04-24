@@ -1,0 +1,218 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/1.2.2/9GDH/app/src/main/res/layout/activity_main.xml" value="0.3537037037037037" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/1.2.2/9GDH/app/src/main/res/layout/fragment_punktacja.xml" value="0.1" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/backgound_shadeofblack_all_20dp.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/backgound_textshadedcolor_none.xml" value="0.45740740740740743" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_accentcolor_all_20dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_black_all_100dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_primarycolor_all_100dp.xml" value="0.4648148148148148" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_shadeofblack_all_20dp.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_sth_all_50dp.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_back_arrow_black.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_launcher_background_main.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_launcher_foreground_main.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/activity_main.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_biografie.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_biografie_postac.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_home.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_news.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_sprawnosci.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_statut.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_stopnie.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_stopnie_specyfikacja.xml" value="0.4212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_struktura.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_symbolika_krzyz.xml" value="0.3962962962962963" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_symbolika_pagon_wedrowniczy.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_symbolika_pagonwedrowniczy.xml" value="0.36018518518518516" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_view_pager_holder.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable-v24/backgound_secondarycolor_all_20dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable-v24/backgound_somerandomcolor_all_20dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable-v24/button_onsecondarycolor_all_20dp.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/button_.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/button_2.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/frame_brozne_v2.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/frame_grey.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/frame_silver_v2.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/gold_frame_v2.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/ic_document.xml" value="0.44722222222222224" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/ic_info.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/ic_shirt.xml" value="0.44722222222222224" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/drawable/ic_star.xml" value="0.44722222222222224" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/activity_login.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/activity_main.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_make_news.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_news_content.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_not_logged.xml" value="0.3411458333333333" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_pelna__struktura_.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_prawo.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_punktacja.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_regulamin_musztry.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_regulamin_umundurowania.xml" value="0.25" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_statut.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_stopnie_specyfikacja.xml" value="0.49722222222222223" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_struktura.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_struktura_1layer_.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_symbolika_krzyz.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/9 GDH/new 9GDH app/Versions/latest version/9GDH/app/src/main/res/layout/fragment_under_construction.xml" value="0.49722222222222223" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/backgound_onsecondarycolor_all_20dp.xml" value="0.40185185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/backgound_secondarycolor_all_10dp.xml" value="0.5212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/backgound_secondarycolor_all_20dp.xml" value="0.5212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_ColorOnSecondary_all_20dp.xml" value="0.40185185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_onsecondarycolor_all_20dp.xml" value="0.40185185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_primaryshaded_none.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_secondary_none.xml" value="0.5212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_transparent_all_20dp.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_transparent_all_40dp.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/button_transparent_all_5dp.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_chat.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_chat_Selected.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_chat_selected.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_lock.xml" value="0.5212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_news.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable-v24/ic_news_selected.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_back_arrow.xml" value="0.40185185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_chart.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_chart_selected.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_compass.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_data_base.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_data_base_selected.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_login.xml" value="0.525" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_menu.xml" value="0.4361111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_register.xml" value="0.525" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/ic_settings.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/drawable/sprawnosci.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/layout/activity_main.xml" value="0.5305555555555556" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/layout/fragment_chat.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/layout/fragment_home.xml" value="0.47734410049349485" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/layout/fragment_news.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.0/app/src/main/res/layout/fragment_score.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1.1/9GDH/app/src/main/res/layout/fragment_news_content.xml" value="0.5324074074074074" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable-v24/backgound_primarycolor_none.xml" value="0.3509259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable-v24/backgound_secondarycolor_all_10dp.xml" value="0.3398148148148148" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable-v24/button_accentcolor_all_20dp.xml" value="0.3509259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable-v24/button_onsecondarycolor_all_21dp.xml" value="0.3314814814814815" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable-v24/ic_log_out.xml" value="0.42962962962962964" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/backgound_login_wave.xml" value="0.3509259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/ic_back_arrow_v2.xml" value="0.3453703703703704" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/ic_grid.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/ic_menu.xml" value="0.3453703703703704" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/wave_1_1.xml" value="0.3509259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/wave_1_2.xml" value="0.3509259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/wave_2_1.xml" value="0.35" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/drawable/wave_2_2.xml" value="0.35" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.11875" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/activity_register.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/activity_symbolika.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/content_scrolling.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_chat.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_ciphers.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_home.xml" value="0.42525979216626697" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_login.xml" value="0.4148148148148148" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_not_logged.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_symbolika.xml" value="0.4009259259259259" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_symbolika__krzyz_.xml" value="0.41574074074074074" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_symbolika_krzyz.xml" value="0.41574074074074074" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_symbolika_lilijka.xml" value="0.41574074074074074" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.1/app/src/main/res/layout/fragment_symbolika_mundur.xml" value="0.41574074074074074" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/drawable-v24/backgound_almostblack_tl_tr_15dp.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/drawable-v24/button_transparent_all_5dp.xml" value="0.37592592592592594" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/activity_main.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_home.xml" value="0.325" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_prawo.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_symbolika_krzyz.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_symbolika_lilijka.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_symbolika_mundur.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.2/9GDH/app/src/main/res/layout/fragment_view_pager_holder.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_accentcolor_all_20dp.xml" value="0.46296296296296297" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_accentcolor_all_5dp.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_almostbalckcolor_all_20dp.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_foregroundcolor_all_20dp.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_lightsecondarycolor_all_20dp.xml" value="0.3861111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_secondarycolor_all_20dp.xml" value="0.36203703703703705" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_secondarycolor_all_5dp.xml" value="0.2972222222222222" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_secondarycolor_tl_bl_20dp.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_secondarycolor_tl_tr_20dp.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/backgound_somerandomcolor_all_20dp.xml" value="0.3861111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/button_accentcolor_all_20dp.xml" value="0.36203703703703705" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/button_onsecondarycolor_all_20dp.xml" value="0.36203703703703705" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/button_transparent_all_20dp.xml" value="0.36203703703703705" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/button_transparent_all_5dp.xml" value="0.36203703703703705" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable-v24/button_transparent_all_7dp.xml" value="0.49537037037037035" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/button_accentcolor_tr_br_20dp.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/cos.xml" value="0.49537037037037035" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_add.xml" value="0.5111111111111111" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_construction.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_delete.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_edit.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_go_back.xml" value="0.45092592592592595" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_launcher_background_main.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_launcher_foreground_main.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_save.xml" value="0.3398148148148148" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_send.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/ic_send_black.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/splasch_screen_foreground.xml" value="0.4935185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/drawable/splash_screen_image.xml" value="0.4935185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/activity_symbolika.xml" value="0.43703703703703706" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/chat_row.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_chat_v2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_choose_chat.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_home.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_make_news.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_news.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_news_content.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_not_logged.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_under_construction.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/layout/fragment_view_pager_holder.xml" value="0.27685185185185185" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/1.3/9GDH/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/backgound_primarycolor_tl_tr_10dp.xml" value="0.5212962962962963" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/backgound_transparent_all_5dp_stroke.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_secondarycolor_all_15dp.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_transparent_all_12dp.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_transparent_all_19dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/button_transparent_all_7dp.xml" value="0.5615384615384615" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable-v24/cos.xml" value="0.9" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_arrow_down.xml" value="0.5703125" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_arrow_down_left.xml" value="0.41388888888888886" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_arrow_down_long.xml" value="0.41388888888888886" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_arrow_down_right.xml" value="0.41388888888888886" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_left_arrow.xml" value="0.41388888888888886" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/drawable/ic_right_arrow.xml" value="0.41388888888888886" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_biografie.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_biografie_postac.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_chat_v2.xml" value="0.3287037037037037" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_news.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_sprawnosci.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_statut.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_struktura.xml" value="0.5" />
+        <entry key="..\:/Users/micha/Desktop/new 9GDH app/Versions/latest Version/9GDH/app/src/main/res/layout/fragment_symbolika_lilijka.xml" value="0.37222222222222223" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16012396694214875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

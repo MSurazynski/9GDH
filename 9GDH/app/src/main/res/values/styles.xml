@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textAppeareance">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">10dp</item>
+        <item name="autoSizeMaxTextSize">10dp</item>
+    </style>
+
+
+</resources>
