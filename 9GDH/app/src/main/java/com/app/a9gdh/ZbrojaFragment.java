@@ -51,20 +51,30 @@ public class ZbrojaFragment extends Fragment {
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                FragmentManager fragmentManager = getParentFragmentManager();
-                TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
 
-                title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-                title_TextView_MainActivity.setText("9 GDH");
+                // Check if info from activity is open
+                MainActivity activity = (MainActivity) getActivity();
+                assert activity != null;
+                if (activity.is_info_open) {
+                    activity.closeInfo();
 
-                fragmentManager.beginTransaction()
-                        .setCustomAnimations(
-                                R.anim.fade_in,
-                                R.anim.fade_out,
-                                R.anim.fade_in,
-                                R.anim.fade_out
-                        )
-                        .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+                } else {
+
+                    FragmentManager fragmentManager = getParentFragmentManager();
+                    TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
+
+                    title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                    title_TextView_MainActivity.setText("9 GDH");
+
+                    fragmentManager.beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.fade_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.fade_out
+                            )
+                            .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+                }
             }
         };
         requireActivity().getOnBackPressedDispatcher().addCallback(getActivity(), callback);

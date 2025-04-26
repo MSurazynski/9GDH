@@ -209,17 +209,26 @@ public class BiografieMenuFragment extends Fragment {
             @Override
             public void handleOnBackPressed() {
 
-                title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-                title_TextView_MainActivity.setText("9 GDH");
+                // Check if info from activity is open
+                MainActivity activity = (MainActivity) getActivity();
+                assert activity != null;
+                if (activity.is_info_open) {
+                    activity.closeInfo();
+                } else {
 
-                fragmentManager.beginTransaction()
-                        .setCustomAnimations(
-                                R.anim.fade_in,
-                                R.anim.fade_out,
-                                R.anim.fade_in,
-                                R.anim.fade_out
-                        )
-                        .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+
+                    title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                    title_TextView_MainActivity.setText("9 GDH");
+
+                    fragmentManager.beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.fade_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.fade_out
+                            )
+                            .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+                }
             }
         };
         requireActivity().getOnBackPressedDispatcher().addCallback(getActivity(), callback);

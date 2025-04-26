@@ -169,37 +169,44 @@ public class PDFViewerFragment extends Fragment {
      * @param fragmentManager fragmentManager
      */
     private void manageReturn(FragmentManager fragmentManager) {
-
-        if (index.equals("pelna_struktura")) {
-
-            TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
-            title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-            title_TextView_MainActivity.setText("Struktura i Funkcje");
-
-            fragmentManager.beginTransaction()
-                    .setCustomAnimations(
-                            R.anim.fade_in,
-                            R.anim.fade_out,
-                            R.anim.fade_in,
-                            R.anim.fade_out
-                    )
-                    .replace(R.id.frame_FragmentContainerView_MainActivity, StrukturaFragment.class, null, "tag").commit();
-
+        // Check if info from activity is open
+        MainActivity activity = (MainActivity) getActivity();
+        assert activity != null;
+        if (activity.is_info_open) {
+            activity.closeInfo();
         } else {
 
-            TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
-            title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-            title_TextView_MainActivity.setText("9 GDH");
+            if (index.equals("pelna_struktura")) {
 
-            fragmentManager.beginTransaction()
-                    .setCustomAnimations(
-                            R.anim.fade_in,
-                            R.anim.fade_out,
-                            R.anim.fade_in,
-                            R.anim.fade_out
-                    )
-                    .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+                TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
+                title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                title_TextView_MainActivity.setText("Struktura i Funkcje");
 
+                fragmentManager.beginTransaction()
+                        .setCustomAnimations(
+                                R.anim.fade_in,
+                                R.anim.fade_out,
+                                R.anim.fade_in,
+                                R.anim.fade_out
+                        )
+                        .replace(R.id.frame_FragmentContainerView_MainActivity, StrukturaFragment.class, null, "tag").commit();
+
+            } else {
+
+                TextView title_TextView_MainActivity = getActivity().findViewById(R.id.title_TextView_MainActivity);
+                title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                title_TextView_MainActivity.setText("9 GDH");
+
+                fragmentManager.beginTransaction()
+                        .setCustomAnimations(
+                                R.anim.fade_in,
+                                R.anim.fade_out,
+                                R.anim.fade_in,
+                                R.anim.fade_out
+                        )
+                        .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+
+            }
         }
     }
 }

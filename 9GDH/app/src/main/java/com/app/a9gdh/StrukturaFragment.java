@@ -91,31 +91,40 @@ public class StrukturaFragment extends Fragment {
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                if(!PopUpOpen){
 
-                    title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-                    title_TextView_MainActivity.setText("9 GDH");
+                // Check if info from activity is open
+                MainActivity activity = (MainActivity) getActivity();
+                assert activity != null;
+                if (activity.is_info_open) {
+                    activity.closeInfo();
+                } else {
 
-                    fragmentManager.beginTransaction()
-                            .setCustomAnimations(
-                                    R.anim.fade_in,
-                                    R.anim.fade_out,
-                                    R.anim.fade_in,
-                                    R.anim.fade_out
-                            )
-                            .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
-                }
-                else{
-                    Button struktura_background_button = view.findViewById(R.id.strukturaBg_Button_StrukturaFragment);
-                    ConstraintLayout Struktura_PopUp_Layout = view.findViewById(R.id.popUp_ConstraintLayout_StrukturaFragment);
+                    if(!PopUpOpen){
 
-                    Animation animation = AnimationUtils.loadAnimation(getContext(), R.anim.slide_up_to_down);
-                    Struktura_PopUp_Layout.startAnimation(animation);
+                        title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                        title_TextView_MainActivity.setText("9 GDH");
 
-                    struktura_background_button.setVisibility(View.GONE);
-                    Struktura_PopUp_Layout.setVisibility(View.GONE);
-                    close_all_customPopUp_elements();
-                    PopUpOpen = false;
+                        fragmentManager.beginTransaction()
+                                .setCustomAnimations(
+                                        R.anim.fade_in,
+                                        R.anim.fade_out,
+                                        R.anim.fade_in,
+                                        R.anim.fade_out
+                                )
+                                .replace(R.id.frame_FragmentContainerView_MainActivity, MenuFragment.class, null, "tag").commit();
+                    }
+                    else{
+                        Button struktura_background_button = view.findViewById(R.id.strukturaBg_Button_StrukturaFragment);
+                        ConstraintLayout Struktura_PopUp_Layout = view.findViewById(R.id.popUp_ConstraintLayout_StrukturaFragment);
+
+                        Animation animation = AnimationUtils.loadAnimation(getContext(), R.anim.slide_up_to_down);
+                        Struktura_PopUp_Layout.startAnimation(animation);
+
+                        struktura_background_button.setVisibility(View.GONE);
+                        Struktura_PopUp_Layout.setVisibility(View.GONE);
+                        close_all_customPopUp_elements();
+                        PopUpOpen = false;
+                    }
                 }
             }
         };

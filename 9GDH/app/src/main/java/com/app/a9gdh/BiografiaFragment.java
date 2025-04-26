@@ -102,17 +102,26 @@ public class BiografiaFragment extends Fragment {
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
-                title_TextView_MainActivity.setText("Biografie");
 
-                fragmentManager.beginTransaction()
-                        .setCustomAnimations(
-                                R.anim.fade_in,
-                                R.anim.fade_out,
-                                R.anim.fade_in,
-                                R.anim.fade_out
-                        )
-                        .replace(R.id.frame_FragmentContainerView_MainActivity, BiografieMenuFragment.class, null, "tag").commit();
+                // Check if info from activity is open
+                MainActivity activity = (MainActivity) getActivity();
+                assert activity != null;
+                if (activity.is_info_open) {
+                    activity.closeInfo();
+                } else {
+
+                    title_TextView_MainActivity.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.enter_from_right));
+                    title_TextView_MainActivity.setText("Biografie");
+
+                    fragmentManager.beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.fade_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.fade_out
+                            )
+                            .replace(R.id.frame_FragmentContainerView_MainActivity, BiografieMenuFragment.class, null, "tag").commit();
+                }
             }
         };
         requireActivity().getOnBackPressedDispatcher().addCallback(getActivity(), callback);

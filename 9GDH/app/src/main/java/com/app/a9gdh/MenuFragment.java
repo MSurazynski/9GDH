@@ -87,8 +87,16 @@ public class MenuFragment extends Fragment {
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                getActivity().finish();
-                System.exit(0);
+                // Check if info from activity is open
+                MainActivity activity = (MainActivity) getActivity();
+                assert activity != null;
+                if (activity.is_info_open) {
+                    activity.closeInfo();
+                } else {
+
+                    getActivity().finish();
+                    System.exit(0);
+                }
             }
         };
         requireActivity().getOnBackPressedDispatcher().addCallback(getActivity(), callback);

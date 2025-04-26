@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private AnimationManager animationManager;
     private ImageView logo;
 
-    private boolean is_info_open = false;
+    public boolean is_info_open = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,24 +59,30 @@ public class MainActivity extends AppCompatActivity {
 
         logo.setOnClickListener(v -> {
             if (!is_info_open) {
-
-                is_info_open = true;
-                info.startAnimation(animationManager.getFadeIn());
-                info.setVisibility(View.VISIBLE);
-                bgMain.startAnimation(animationManager.getFadeIn());
-                bgMain.setVisibility(View.VISIBLE);
+                openInfo();
             }
         });
 
         bgMain.setOnClickListener(v -> {
             if (is_info_open) {
-
-                is_info_open = false;
-                info.startAnimation(animationManager.getFadeOut());
-                info.setVisibility(View.INVISIBLE);
-                bgMain.startAnimation(animationManager.getFadeOut());
-                bgMain.setVisibility(View.INVISIBLE);
+                closeInfo();
             }
         });
+    }
+
+    public void openInfo() {
+        is_info_open = true;
+        info.startAnimation(animationManager.getFadeIn());
+        info.setVisibility(View.VISIBLE);
+        bgMain.startAnimation(animationManager.getFadeIn());
+        bgMain.setVisibility(View.VISIBLE);
+    }
+
+    public void closeInfo() {
+        is_info_open = false;
+        info.startAnimation(animationManager.getFadeOut());
+        info.setVisibility(View.INVISIBLE);
+        bgMain.startAnimation(animationManager.getFadeOut());
+        bgMain.setVisibility(View.INVISIBLE);
     }
 }
